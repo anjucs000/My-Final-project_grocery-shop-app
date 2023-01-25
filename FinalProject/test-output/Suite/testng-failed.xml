@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.obsqura.selenium.FinalProject.Listeners"/>
+  </listeners>
   <test name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="group1"/>
+        <include name="group2"/>
+      </run>
+    </groups>
     <classes>
-      <class name="com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest">
+      <class name="com.obsqura.selenium.FinalProject.PushNotificationsTest">
         <methods>
-          <include name="initializeBrowser"/>
-          <include name="initialiseBrowser"/>
-          <include name="verifyClickSaveWithTitle"/>
+          <include name="verifyCheckTitleOfPage"/>
+          <include name="verifyResetNotification"/>
+          <include name="verifySendNotification"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest -->
+      </class> <!-- com.obsqura.selenium.FinalProject.PushNotificationsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

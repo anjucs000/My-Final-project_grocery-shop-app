@@ -8,14 +8,20 @@ import org.openqa.selenium.support.FindBy;
 
 public class SideMenuItemsNavigation {
 	public WebDriver driver;
-	@FindBy(xpath="//li[@class='nav-item']//a")
+	public SideMenuItemsNavigation(WebDriver driver) {
+		this.driver=driver;
+	}
+	@FindBy(xpath="//li[@class='nav-item']//child::a")
 	private List<WebElement> itemsList;
 
-	public void sideMenuNavigationMethod() {
+	public void sideMenuNavigationMethod(String menu) {
+		String input;
 		List<WebElement> listOfItems=itemsList;
 		for(WebElement ItemSelected:listOfItems) {
-			ItemSelected.getAttribute("href");
+			input=ItemSelected.getAttribute("href");
+			if(input.contains(menu)) {
+				ItemSelected.click();
+			}
 		}
 	}
-
 }

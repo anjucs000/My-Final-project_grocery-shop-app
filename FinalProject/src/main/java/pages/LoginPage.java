@@ -26,12 +26,9 @@ public class LoginPage {
 	private WebElement signInButton;
 	
 	public void loginToApp() throws IOException {
-		String actualTitle,expectedTitle="Dashboard | 7rmart supermarket";
-		//String expectedTitle = ExcelUtility.getTestData(0, 0, constants.Constants.TESTDATAFILE, "TC1");
+		String actualTitle,expectedTitle=ExcelUtility.getTestData(0, 0, constants.Constants.TESTDATAFILE, "TC1");
 		PageUtility.enterText(userNameField, ExcelUtility.getTestData(0, 0, constants.Constants.TESTDATAFILE, "Login"));
 		PageUtility.enterText(passwordField, ExcelUtility.getTestData(1, 0, constants.Constants.TESTDATAFILE, "Login"));
-		//PageUtility.enterText(userNameField, "admin");
-		//PageUtility.enterText(passwordField, "admin");
 		PageUtility.clickOnElement(signInButton);
 		actualTitle=driver.getTitle();
 		WaitUtility.waitForTitleContains(driver, actualTitle);

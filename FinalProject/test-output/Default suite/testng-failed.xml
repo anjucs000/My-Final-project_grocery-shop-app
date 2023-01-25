@@ -5,8 +5,9 @@
     <classes>
       <class name="com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest">
         <methods>
-          <include name="verifyClickSaveWithoutTitle"/>
           <include name="initializeBrowser"/>
+          <include name="verifyDuplicateTitleValidation"/>
+          <include name="browserQuit"/>
           <include name="initialiseBrowser"/>
         </methods>
       </class> <!-- com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest -->

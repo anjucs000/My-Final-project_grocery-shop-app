@@ -12,6 +12,7 @@ public class VerifyButtonsAndColorsInExpenseCategoryTest extends Base{
 	LoginPage object1;
 	ExpenseCategoryPage object2;
 	VerifyButtonsAndColorsInExpenseCategory object3;
+	
 	@Test
 	public void verifyFindBackgroundColor() throws IOException {
 		object1=new LoginPage(driver);

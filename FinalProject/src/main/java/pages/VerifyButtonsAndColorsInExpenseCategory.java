@@ -1,5 +1,7 @@
 package pages;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import utilities.ExcelUtility;
 import utilities.PageUtility;
 
 public class VerifyButtonsAndColorsInExpenseCategory {
@@ -24,23 +27,22 @@ public class VerifyButtonsAndColorsInExpenseCategory {
 	@FindBy(xpath="//a[@class='btn btn-rounded btn-warning']")
 	private WebElement resetButton;
 
-	public void findBackgroundColor() {
+	public void findBackgroundColor() throws IOException {
 		Boolean flag=false;
-		String actualBackgroundColorOfNewButton,expectedBackgroundColorOfNewButton="rgba(220, 53, 69, 1)";
-		String actualBackgroundColorOfSearchButton,expectedBackgroundColorOfSearchButton="rgba(0, 123, 255, 1)";
-		String actualBackgroundColorOfResetButton,expectedlBackgroundColorOfResetButton="rgba(255, 193, 7, 1)";
-		//actualBackgroundColorOfNewButton=newButton.getCssValue("background-color");
+		String actualBackgroundColorOfNewButton;
+		String expectedBackgroundColorOfNewButton=ExcelUtility.getTestData(0, 1, constants.Constants.TESTDATAFILE, "Button_color");
+		String actualBackgroundColorOfSearchButton;
+		String expectedBackgroundColorOfSearchButton=ExcelUtility.getTestData(1, 1, constants.Constants.TESTDATAFILE, "Button_color");
+		String actualBackgroundColorOfResetButton;
+		String expectedlBackgroundColorOfResetButton=ExcelUtility.getTestData(2, 1, constants.Constants.TESTDATAFILE, "Button_color");
 		actualBackgroundColorOfNewButton=PageUtility.getBackgroundColorCSSValue(newButton);
-		//actualBackgroundColorOfSearchButton=searchButton.getCssValue("background-color");
 		actualBackgroundColorOfSearchButton=PageUtility.getBackgroundColorCSSValue(searchButton);
-		//actualBackgroundColorOfResetButton=resetButton.getCssValue("background-color");
 		actualBackgroundColorOfResetButton=PageUtility.getBackgroundColorCSSValue(resetButton);
 		if(actualBackgroundColorOfNewButton.equals(expectedBackgroundColorOfNewButton) 
 		&& actualBackgroundColorOfSearchButton.equals(expectedBackgroundColorOfSearchButton) 
 		&& actualBackgroundColorOfResetButton.equals(expectedlBackgroundColorOfResetButton)) {
 			flag=true;
 		}
-		Assert.assertTrue(true, "Actual and Expected colors of one or all of the buttons are not equal");
-		Assert.assertTrue(flag);
+		Assert.assertTrue(flag, "Actual and Expected colors of one or all of the buttons are not equal");
 	}
 }

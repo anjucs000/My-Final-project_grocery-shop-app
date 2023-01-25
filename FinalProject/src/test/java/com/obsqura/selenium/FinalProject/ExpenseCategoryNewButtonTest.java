@@ -23,17 +23,16 @@ public class ExpenseCategoryNewButtonTest extends Base {
 		object3.clickNewButton();
 	}
 	@Test(priority=1)
-	public void verifyClickSaveWithoutTitle() throws IOException {
+	public void verifySaveButtonColor() throws IOException, InterruptedException {
 		object1=new LoginPage(driver);
 		object2=new ExpenseCategoryPage(driver);
 		object3=new ExpenseCategoryNewButton(driver);
 		object1.loginToApp();
 		object2.clickExpenseCategory();
 		object3.clickNewButton();
-		object3=new ExpenseCategoryNewButton(driver);
-		object3.clickSaveWithoutTitle();
+		object3.saveButtonColor();
 	}
-	@Test(priority=1)
+	@Test(priority=2)
 	public void verifyClickSaveWithTitle() throws IOException {
 		object1=new LoginPage(driver);
 		object2=new ExpenseCategoryPage(driver);
@@ -42,6 +41,16 @@ public class ExpenseCategoryNewButtonTest extends Base {
 		object2.clickExpenseCategory();
 		object3.clickNewButton();
 		object3.clickSaveWithTitle();
+	}
+	@Test(priority=3)
+	public void verifyDuplicateTitleValidation() throws IOException {
+		object1=new LoginPage(driver);
+		object2=new ExpenseCategoryPage(driver);
+		object3=new ExpenseCategoryNewButton(driver);
+		object1.loginToApp();
+		object2.clickExpenseCategory();
+		object3.clickNewButton();
+		object3.duplicateTitleValidation(ExpenseCategoryNewButton.inputText);
 	}
 
 }

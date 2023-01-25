@@ -46,6 +46,10 @@ public class WaitUtility {
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(EXPLICIT_WAIT));
 		wait.until(ExpectedConditions.elementToBeSelected(locator));
 	}
+	public static void waitForElementToBeClickable(WebDriver driver,WebElement element) {
+		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(EXPLICIT_WAIT));
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+	}
 	public static void waitForElementToBeSelected(WebDriver driver,By locator) {
 		WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(EXPLICIT_WAIT));
 		wait.until(ExpectedConditions.elementToBeSelected(locator));

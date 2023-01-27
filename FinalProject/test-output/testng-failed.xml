@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest">
+      <class name="com.obsqura.selenium.FinalProject.ManageSliderTest">
         <methods>
           <include name="initializeBrowser"/>
-          <include name="verifyDuplicateTitleValidation"/>
           <include name="browserQuit"/>
           <include name="initialiseBrowser"/>
+          <include name="verifyNavigateBackToHome"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest -->
+      </class> <!-- com.obsqura.selenium.FinalProject.ManageSliderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

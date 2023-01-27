@@ -1,5 +1,6 @@
 package pages;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -8,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import utilities.ExcelUtility;
 import utilities.PageUtility;
 import utilities.WaitUtility;
 
@@ -17,7 +19,7 @@ public class ManagePagesFromDashBoardPage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
-	@FindBy(xpath="//a[@href='https://groceryapp.uniqassosiates.com/admin/list-page']//parent::div")
+	@FindBy(xpath="//a[@class='small-box-footer' and @href='https://groceryapp.uniqassosiates.com/admin/list-page']")
 	private WebElement managePages;
 	
 	@FindBy(xpath="//a[@class='btn btn-rounded btn-primary']")
@@ -38,20 +40,24 @@ public class ManagePagesFromDashBoardPage {
 	@FindBy(xpath="//table[@class='table table-bordered table-hover table-sm']//tr")
 	private List<WebElement> tableRows;
 	
-	public void searchInvalidData() {
-		String actualMessage,expectedMessage=".........RESULT NOT FOUND.......";
-		WaitUtility.waitForElement(driver, mainSearchButton);
+	public void searchInvalidData() throws IOException {
+		String actualMessage,expectedMessage=ExcelUtility.getTestData(0, 1, constants.Constants.TESTDATAFILE, "Manage_Pages");
 		PageUtility.clickOnElement(managePages);
+		WaitUtility.waitForElement(driver, mainSearchButton);
 		PageUtility.clickOnElement(mainSearchButton);
-		
-		PageUtility.enterText(titleField, "invalid data");
+		PageUtility.enterText(titleField, ExcelUtility.getTestData(1, 1, constants.Constants.TESTDATAFILE, "Manage_Pages"));
+		PageUtility.clickOnElement(searchButton);
 		actualMessage=resultNotFoundMessage.getText();
 		Assert.assertEquals(actualMessage, expectedMessage, "Provided data available in the list");
 	}
-	public void searchValidData() {
+	public void searchValidData() throws IOException {
+		int rowCOunt;
 		PageUtility.clickOnElement(managePages);
+		WaitUtility.waitForElement(driver, mainSearchButton);
 		PageUtility.clickOnElement(mainSearchButton);
-		PageUtility.enterText(titleField, "test");
-		Assert.assertFalse(resultNotFoundMessage.isDisplayed(), "Searched content not found");;
+		PageUtility.enterText(titleField, ExcelUtility.getTestData(1, 1, constants.Constants.TESTDATAFILE, "Manage_Pages"));
+		List<WebElement> tableRowsElements=tableRows;
+		rowCOunt=tableRowsElements.size();
+		Assert.assertTrue(rowCOunt>1, "Searched content not found");;
 	}
 }

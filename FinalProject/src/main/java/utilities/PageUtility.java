@@ -38,7 +38,11 @@ public class PageUtility {
 	}
 	public static void ScrollBy(WebDriver driver) {
 		JavascriptExecutor Js1 = (JavascriptExecutor) driver;
-		Js1.executeScript("window.scrollBy(0,1000)");
+		Js1.executeScript("window.scrollBy(0,2000)");
+	}
+	public static void ScrollIntoView(WebDriver driver,WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView()", element);
 	}
 	public static void stopPageRefresh(WebDriver driver) {
 		JavascriptExecutor Js1 = (JavascriptExecutor) driver;
@@ -48,6 +52,4 @@ public class PageUtility {
 		String s=element.getCssValue("background-color");
 		return s;
 	}
-
-
 }

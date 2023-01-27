@@ -6,6 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import utilities.FakerUtility;
+import utilities.PageUtility;
+
 public class ManageProductPage {
 	public WebDriver driver;
 	public ManageProductPage(WebDriver driver) {
@@ -34,6 +37,11 @@ public class ManageProductPage {
 	public void addNewproduct() {
 		Select category=new Select(categoryDropdown);
 		Select subCategory=new Select(subCategoryDropdown);
+		PageUtility.clickOnElement(manageProductSidemenu);
+		PageUtility.clickOnElement(newButton);
+		PageUtility.enterText(titleField, FakerUtility.generateSingleData());
+		PageUtility.clickOnElement(vegRadioButton);
+		
 	}
 
 }

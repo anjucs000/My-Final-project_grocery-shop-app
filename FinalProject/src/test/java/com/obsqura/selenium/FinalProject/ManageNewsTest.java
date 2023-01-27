@@ -11,20 +11,11 @@ public class ManageNewsTest extends Base{
 	LoginPage object1;
 	ManageNewspage object2;
 	
-/*	@Test
+	@Test
 	public void VerifyEnterAndSaveNews() throws IOException {
 		object1=new LoginPage(driver);
 		object2=new ManageNewspage(driver);
 		object1.loginToApp();
 		object2.enterAndSaveNews();
-	}*/
-	
-	@Test
-	public void updateNewsAndSave() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageNewspage(driver);
-		object1.loginToApp();
-		object2.updateNewsAndSave();
 	}
-
 }

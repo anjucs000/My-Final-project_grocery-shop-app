@@ -1,5 +1,6 @@
 package pages;
 
+import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 
@@ -10,6 +11,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
+import utilities.ExcelUtility;
 import utilities.FakerUtility;
 import utilities.PageUtility;
 import utilities.WaitUtility;
@@ -43,8 +45,8 @@ public class ManageNewspage {
 	@FindBy(xpath="//table[@class='table table-bordered table-hover table-sm']//tr")
 	private List<WebElement> tableRows;
 	
-	public void enterAndSaveNews() {
-		String alertMessage;
+	public void enterAndSaveNews() throws IOException {
+		String actualAlertMessage,expectedAlertMessage=ExcelUtility.getTestData(0, 1, constants.Constants.TESTDATAFILE, "Manage_News");
 		PageUtility.clickOnElement(manageContent);
 		WaitUtility.waitForElement(driver, manageNews);
 		WaitUtility.waitForElementClickable(driver, manageNews);
@@ -52,38 +54,8 @@ public class ManageNewspage {
 		PageUtility.clickOnElement(newButton);
 		PageUtility.enterText(enterTheNewsField, FakerUtility.generateSingleData());
 		PageUtility.clickOnElement(saveButton);
-		alertMessage=successAlert.getText();
-		Assert.assertTrue(alertMessage.contains("News Created Successfully"), "Saving news failed");
-	}
-	public void updateNewsAndSave() {
-		int x=1;
-		PageUtility.clickOnElement(manageContent);
-		WaitUtility.waitForElement(driver, manageNews);
-		WaitUtility.waitForElementClickable(driver, manageNews);
-		PageUtility.clickOnElement(manageNews);
-		List<WebElement> elements=tableRows;
-		Iterator<WebElement> i = elements.iterator();
-		 while(i.hasNext()) {
-		        WebElement item = i.next();
-		        WebElement rowVale=item.findElement(By.tagName("a"));
-		       
-		        if(rowVale.getAttribute("href").contains("https")) {
-		        	item.click();
-		            break;
-		        }
-		    }
-		/*if(x==1) {
-			for(WebElement item:elements) {
-				String hrefAttribute=item.getAttribute("href");
-				if(hrefAttribute.contains("https")) {
-					WebElement itemToClick=item;
-					item.click();
-					x=2;
-				}
-			}
-		}*/
-		PageUtility.enterText(enterTheNewsField, FakerUtility.generateSingleData());
-		PageUtility.clickOnElement(saveButton);
+		actualAlertMessage=successAlert.getText();
+		Assert.assertTrue(actualAlertMessage.contains(expectedAlertMessage), "Saving news failed");
 	}
 	
 }

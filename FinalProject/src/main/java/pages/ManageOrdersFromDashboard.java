@@ -73,16 +73,16 @@ public class ManageOrdersFromDashboard {
 	}
 	public void clickViewButton() {
 		PageUtility.clickOnElement(viewButton);
-		Assert.assertTrue(orderDetailsHeading.isDisplayed(), "Navigation to Order details page failed");
+		Assert.assertTrue(PageUtility.checkFieldDisplayed(orderDetailsHeading), "Navigation to Order details page failed");
 	}
 	public void clickBackButtonFromViewScreen() {
 		PageUtility.clickOnElement(backButton);
-		Assert.assertTrue(listOrdersheading.isDisplayed(), "Navigate back to List orders page failed");
+		Assert.assertTrue(PageUtility.checkFieldDisplayed(listOrdersheading), "Navigate back to List orders page failed");
 	}
 	public void deleteOrder() {
 		PageUtility.clickOnElement(deleteButton);
 		driver.switchTo().alert().accept();
-		Assert.assertTrue(closeButtonOfAlert.isDisplayed(), "Delete order failed");
+		Assert.assertTrue(PageUtility.checkFieldDisplayed(closeButtonOfAlert), "Delete order failed");
 	}
 	
 	

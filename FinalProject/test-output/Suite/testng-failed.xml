@@ -5,20 +5,36 @@
     <listener class-name="com.obsqura.selenium.FinalProject.Listeners"/>
   </listeners>
   <test name="Test(failed)">
-    <groups>
-      <run>
-        <include name="group1"/>
-        <include name="group2"/>
-      </run>
-    </groups>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="deliveryCharge" value="250"/>
+    <parameter name="location" value="Kerala"/>
+    <parameter name="countryValue" value="United Kingdom"/>
     <classes>
-      <class name="com.obsqura.selenium.FinalProject.PushNotificationsTest">
+      <class name="com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest">
         <methods>
-          <include name="verifyCheckTitleOfPage"/>
-          <include name="verifyResetNotification"/>
-          <include name="verifySendNotification"/>
+          <include name="browserQuit"/>
+          <include name="initialiseBrowser"/>
+          <include name="VerifyCreateNewDeliveryBoy" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.FinalProject.PushNotificationsTest -->
+      </class> <!-- com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest -->
+      <class name="com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest">
+        <methods>
+          <include name="browserQuit"/>
+          <include name="verifySelectDateFromCalendar"/>
+          <include name="verifyTodaysDateInDateField"/>
+          <include name="initialiseBrowser"/>
+          <include name="verifyCreateNewExpenseRecord"/>
+        </methods>
+      </class> <!-- com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest -->
+      <class name="com.obsqura.selenium.FinalProject.MobileSliderTest">
+        <methods>
+          <include name="verifyCheckButtonColors"/>
+          <include name="verifyCheckColumnHeaders"/>
+          <include name="browserQuit"/>
+          <include name="initialiseBrowser"/>
+          <include name="VerifyAddNewSlider"/>
+        </methods>
+      </class> <!-- com.obsqura.selenium.FinalProject.MobileSliderTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

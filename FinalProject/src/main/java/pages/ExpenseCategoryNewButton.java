@@ -36,13 +36,10 @@ public class ExpenseCategoryNewButton {
 		public static String inputText=FakerUtility.generateSingleData();
 		
 		public void clickNewButton() {
-			Boolean flag;
 			PageUtility.clickOnElement(newButton);
-			Assert.assertTrue(titleField.isDisplayed(), "Title field is not visible in the page");
-			Assert.assertTrue(saveButtton.isDisplayed(), "Save button is not visible in the page");
-			Assert.assertTrue(resetButton.isDisplayed(), "Reset button is not visible in the page");
-			flag=true;
-			Assert.assertTrue(flag, "Required elements in the page is not displaying");
+			Assert.assertTrue(PageUtility.checkFieldDisplayed(titleField), "Title field is not visible in the page");
+			Assert.assertTrue(PageUtility.checkFieldDisplayed(saveButtton), "Save button is not visible in the page");
+			Assert.assertTrue(PageUtility.checkFieldDisplayed(resetButton), "Reset button is not visible in the page");
 		}
 		public void saveButtonColor() throws InterruptedException, IOException {
 			
@@ -56,7 +53,7 @@ public class ExpenseCategoryNewButton {
 			boolean flag = true;
 			PageUtility.enterText(titleField, inputText);
 			PageUtility.clickOnElement(saveButtton);
-			if(titleField.isDisplayed()) {
+			if(PageUtility.checkFieldDisplayed(titleField)) {
 				flag=false;
 			}
 			Assert.assertFalse(flag, "The data cannot be saved");

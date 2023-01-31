@@ -52,4 +52,12 @@ public class PageUtility {
 		String s=element.getCssValue("background-color");
 		return s;
 	}
+	public static boolean checkFieldDisplayed(WebElement element) {
+		boolean flag=element.isDisplayed();
+		return flag;
+	}
+	public static void ScrollByHighValue(WebDriver driver) {
+		JavascriptExecutor Js1 = (JavascriptExecutor) driver;
+		Js1.executeScript("window.scrollBy(0,5000)");
+	}
 }

@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.obsqura.selenium.FinalProject.Listeners"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="deliveryCharge" value="250"/>
+    <parameter name="location" value="Kerala"/>
+    <parameter name="countryValue" value="United Kingdom"/>
     <classes>
-      <class name="com.obsqura.selenium.FinalProject.ManageSliderTest">
+      <class name="com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest">
         <methods>
-          <include name="initializeBrowser"/>
           <include name="browserQuit"/>
           <include name="initialiseBrowser"/>
-          <include name="verifyNavigateBackToHome"/>
+          <include name="VerifyCreateNewDeliveryBoy" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.FinalProject.ManageSliderTest -->
+      </class> <!-- com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest -->
+      <class name="com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest">
+        <methods>
+          <include name="browserQuit"/>
+          <include name="verifySelectDateFromCalendar"/>
+          <include name="verifyTodaysDateInDateField"/>
+          <include name="initialiseBrowser"/>
+          <include name="verifyCreateNewExpenseRecord"/>
+        </methods>
+      </class> <!-- com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest -->
+      <class name="com.obsqura.selenium.FinalProject.MobileSliderTest">
+        <methods>
+          <include name="verifyCheckButtonColors"/>
+          <include name="verifyCheckColumnHeaders"/>
+          <include name="browserQuit"/>
+          <include name="initialiseBrowser"/>
+          <include name="VerifyAddNewSlider"/>
+        </methods>
+      </class> <!-- com.obsqura.selenium.FinalProject.MobileSliderTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

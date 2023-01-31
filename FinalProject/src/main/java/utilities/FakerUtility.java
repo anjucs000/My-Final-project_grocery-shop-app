@@ -19,6 +19,7 @@ public class FakerUtility {
 		Faker faker = new Faker();
 		int index=faker.number().numberBetween(1, 30);
 		return index;
+		
 	}
 	public static String generateAmount() {
 		Faker faker = new Faker();
@@ -40,4 +41,15 @@ public class FakerUtility {
 		return expectedSystemDate;
 	}
 	
+	public static String generateUserName() {
+		Faker faker = new Faker();
+		String s=faker.name().username();
+		return s;
+	}
+	public static int generateIndexforAdminUser() {
+		Faker faker = new Faker();
+		int index=faker.number().numberBetween(0, 5);
+		return index;
+		
+	}
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="4">
+<listeners>
+<listener class-name="com.obsqura.selenium.FinalProject.Listeners"/>
+</listeners>
+ <test name="Parallel Test">
+ <parameter name="browser" value="chrome" />
+    <classes>
+      <class name="com.obsqura.selenium.FinalProject.PushNotificationsTest"/>
+       <class name="com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

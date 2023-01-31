@@ -5,10 +5,26 @@
 <listener class-name="com.obsqura.selenium.FinalProject.Listeners"/>
 </listeners>
   <test name="Test">
+ <parameter name="countryValue" value="United Kingdom"></parameter>
+ <parameter name="location" value="Kerala"></parameter>
+  <parameter name="deliveryCharge" value="250"></parameter>
  <parameter name="browser" value="chrome" />
     <classes>
-      <class name="com.obsqura.selenium.FinalProject.PushNotificationsTest">
-      </class>
+     <class name="com.obsqura.selenium.FinalProject.AdminUsersTest"/>
+      <class name="com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest"/>
+      <class name="com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest"/>
+       <class name="com.obsqura.selenium.FinalProject.LoginPageTest"/>
+        <class name="com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest"/>
+        <class name="com.obsqura.selenium.FinalProject.ManageLocationTest"/>
+         <class name="com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest"/>
+          <class name="com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest"/>
+           <class name="com.obsqura.selenium.FinalProject.ManageNewsTest"/>
+           <class name="com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest"/>
+           <class name="com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest"/>
+        <class name="com.obsqura.selenium.FinalProject.ManageSliderTest"/>
+          <class name="com.obsqura.selenium.FinalProject.MobileSliderTest"/>
+          <class name="com.obsqura.selenium.FinalProject.PushNotificationsTest"/>
+           <class name="com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

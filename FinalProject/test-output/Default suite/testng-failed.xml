@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.obsqura.selenium.FinalProject.ManageSliderTest">
+      <class name="com.obsqura.selenium.FinalProject.ManageLocationTest">
         <methods>
-          <include name="initializeBrowser"/>
           <include name="browserQuit"/>
+          <include name="verifyLocationAndDeliveryChargeFieldsDisplayedOrNot"/>
           <include name="initialiseBrowser"/>
-          <include name="verifyNavigateBackToHome"/>
         </methods>
-      </class> <!-- com.obsqura.selenium.FinalProject.ManageSliderTest -->
+      </class> <!-- com.obsqura.selenium.FinalProject.ManageLocationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

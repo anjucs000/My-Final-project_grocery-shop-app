@@ -29,10 +29,10 @@ public class ExtendReportUtility {
 
 			ExtentSparkReporter reporter = new ExtentSparkReporter("./extent-reports/extent-report.html");
 
-			reporter.config().setReportName("Sample Extent Report");
+			reporter.config().setReportName("Extent Report of groceryApp");
 			extentReports.attachReporter(reporter);
-			extentReports.setSystemInfo("Blog Name", "SW Test Academy");
-			extentReports.setSystemInfo("Author", "Onur Baskirt");
+			extentReports.setSystemInfo("Blog Name", "7r mart groceryStore");
+			extentReports.setSystemInfo("Author", "Anju C S");
 			return extentReports;
 			}
 }

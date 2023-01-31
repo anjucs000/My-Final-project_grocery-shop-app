@@ -3,11 +3,11 @@ package utilities;
 import org.testng.annotations.DataProvider;
 
 public class DataProviderUtility {
-	@DataProvider(name="NewManageExpenseRecord")
+	@DataProvider(name="NewDeliveryBoyRecord")
 	public Object[][] getDataFromDataprovider(){
 		return new Object[][]
 		{
-			{"Anju","C S","anjucs","Trivandrum","Kerala","695008"}
+			{"John Samuel","john123@gmail.com","556485226","Sam villa,North carolina,Zip-45236"}
 		};
 	}
 

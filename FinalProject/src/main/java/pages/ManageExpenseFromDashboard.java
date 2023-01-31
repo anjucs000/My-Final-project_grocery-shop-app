@@ -66,7 +66,7 @@ public class ManageExpenseFromDashboard {
 		public void checkTodaysDateInDateField() {
 			String expectedSystemDate;
 			String actualDate;
-			PageUtility.ScrollBy(driver);
+			PageUtility.ScrollByHighValue(driver);
 			WaitUtility.waitForVisibilityOfWebelement(driver, manageExpenseButton);
 			WaitUtility.waitForElementClickable(driver, manageExpenseButton);
 			PageUtility.clickOnElement(manageExpenseButton);
@@ -80,7 +80,7 @@ public class ManageExpenseFromDashboard {
 		}
 		public void createNewExpenseRecord() throws IOException {
 			boolean flag = false;
-			PageUtility.ScrollBy(driver);
+			PageUtility.ScrollByHighValue(driver);
 			WaitUtility.waitForVisibilityOfWebelement(driver, manageExpenseButton);
 			WaitUtility.waitForElementClickable(driver, manageExpenseButton);
 			PageUtility.clickOnElement(manageExpenseButton);
@@ -98,7 +98,8 @@ public class ManageExpenseFromDashboard {
 			expenseType.selectByVisibleText(ExcelUtility.getTestData(0, 1, constants.Constants.TESTDATAFILE, "Manage_Expense"));
 			PageUtility.enterText(amountField, FakerUtility.generateAmount());
 			PageUtility.enterText(remarksField, FakerUtility.generateStringData());
-			uploadFileField.sendKeys(constants.Constants.UPLOAD_FILE);
+			PageUtility.enterText(uploadFileField, constants.Constants.UPLOAD_FILE);
+			//uploadFileField.sendKeys(constants.Constants.UPLOAD_FILE);
 			PageUtility.ScrollBy(driver);
 			PageUtility.clickOnElement(saveButton);
 			WaitUtility.waitForVisibilityOfWebelement(driver, alertCloseButton);
@@ -109,7 +110,7 @@ public class ManageExpenseFromDashboard {
 		}
 		public void createExpenseRecordByselectDateFromCalendar() throws IOException {
 			boolean flag = false;
-			PageUtility.ScrollBy(driver);
+			PageUtility.ScrollByHighValue(driver);
 			WaitUtility.waitForVisibilityOfWebelement(driver, manageExpenseButton);
 			WaitUtility.waitForElementClickable(driver, manageExpenseButton);
 			PageUtility.clickOnElement(manageExpenseButton);
@@ -129,11 +130,12 @@ public class ManageExpenseFromDashboard {
 			expenseType.selectByVisibleText(ExcelUtility.getTestData(0, 1, constants.Constants.TESTDATAFILE, "Manage_Expense"));
 			PageUtility.enterText(amountField, FakerUtility.generateAmount());
 			PageUtility.enterText(remarksField, FakerUtility.generateStringData());
-			uploadFileField.sendKeys(constants.Constants.UPLOAD_FILE);
+			PageUtility.enterText(uploadFileField, constants.Constants.UPLOAD_FILE);
+			//category.uploadFileField.sendKeys(constants.Constants.UPLOAD_FILE);
 			PageUtility.ScrollBy(driver);
 			PageUtility.clickOnElement(saveButton);
 			WaitUtility.waitForVisibilityOfWebelement(driver, alertCloseButton);
-			if(alertCloseButton.isDisplayed()) {
+			if(PageUtility.checkFieldDisplayed(alertCloseButton)) {
 				flag=true;
 			}
 			Assert.assertTrue(flag, "New Expense record save failed");

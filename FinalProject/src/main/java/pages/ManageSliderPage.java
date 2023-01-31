@@ -44,7 +44,7 @@ public class ManageSliderPage {
 		PageUtility.clickOnElement(newButton);
 		PageUtility.enterText(linkField, FakerUtility.generateSingleData());
 		PageUtility.clickOnElement(saveButton);
-		Assert.assertTrue(closeButtonInAlert.isDisplayed(), "New Slider information not saved");
+		Assert.assertTrue(PageUtility.checkFieldDisplayed(closeButtonInAlert), "New Slider information not saved");
 	}
 	public void navigateBackToHome() throws IOException {
 		String actualUrl,expectedUrl=ExcelUtility.getTestData(0, 1, constants.Constants.TESTDATAFILE, "Manage_Slider");

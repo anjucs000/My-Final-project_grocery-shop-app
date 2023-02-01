@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="7" ignored="0" total="32" passed="25">
+<testng-results skipped="0" failed="1" ignored="0" total="32" passed="31">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="157282" started-at="2023-01-31T22:16:16Z" finished-at="2023-01-31T22:18:53Z">
+  <suite name="Suite" duration-ms="248723" started-at="2023-02-01T16:57:49Z" finished-at="2023-02-01T17:01:57Z">
     <groups>
       <group name="group2">
         <method signature="PushNotificationsTest.verifyCheckTitleOfPage()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="verifyCheckTitleOfPage" class="com.obsqura.selenium.FinalProject.PushNotificationsTest"/>
@@ -13,9 +13,9 @@
         <method signature="PushNotificationsTest.verifySendNotification()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="verifySendNotification" class="com.obsqura.selenium.FinalProject.PushNotificationsTest"/>
       </group> <!-- group1 -->
     </groups>
-    <test name="Test" duration-ms="157282" started-at="2023-01-31T22:16:16Z" finished-at="2023-01-31T22:18:53Z">
+    <test name="Test" duration-ms="248723" started-at="2023-02-01T16:57:49Z" finished-at="2023-02-01T17:01:57Z">
       <class name="com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="initialiseBrowser" is-config="true" duration-ms="2204" started-at="2023-02-01T03:46:34Z" finished-at="2023-02-01T03:46:36Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="initialiseBrowser" is-config="true" duration-ms="3184" started-at="2023-02-01T22:28:23Z" finished-at="2023-02-01T22:28:26Z">
           <params>
             <param index="0">
               <value>
@@ -26,11 +26,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyClickNewButton()[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="verifyClickNewButton" duration-ms="1498" started-at="2023-02-01T03:46:36Z" finished-at="2023-02-01T03:46:38Z">
+        <test-method status="PASS" signature="verifyClickNewButton()[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="verifyClickNewButton" duration-ms="2453" started-at="2023-02-01T22:28:26Z" finished-at="2023-02-01T22:28:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickNewButton -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="browserQuit" is-config="true" duration-ms="755" started-at="2023-02-01T03:46:38Z" finished-at="2023-02-01T03:46:38Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="browserQuit" is-config="true" duration-ms="996" started-at="2023-02-01T22:28:29Z" finished-at="2023-02-01T22:28:30Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="initialiseBrowser" is-config="true" duration-ms="2164" started-at="2023-02-01T03:48:40Z" finished-at="2023-02-01T03:48:42Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="initialiseBrowser" is-config="true" duration-ms="2728" started-at="2023-02-01T22:31:39Z" finished-at="2023-02-01T22:31:42Z">
           <params>
             <param index="0">
               <value>
@@ -52,11 +52,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifySaveButtonColor()[pri:1, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="verifySaveButtonColor" duration-ms="1444" started-at="2023-02-01T03:48:42Z" finished-at="2023-02-01T03:48:44Z">
+        <test-method status="PASS" signature="verifySaveButtonColor()[pri:1, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="verifySaveButtonColor" duration-ms="2096" started-at="2023-02-01T22:31:42Z" finished-at="2023-02-01T22:31:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySaveButtonColor -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="browserQuit" is-config="true" duration-ms="719" started-at="2023-02-01T03:48:44Z" finished-at="2023-02-01T03:48:44Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="browserQuit" is-config="true" duration-ms="911" started-at="2023-02-01T22:31:44Z" finished-at="2023-02-01T22:31:45Z">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="initialiseBrowser" is-config="true" duration-ms="2131" started-at="2023-02-01T03:48:44Z" finished-at="2023-02-01T03:48:46Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="initialiseBrowser" is-config="true" duration-ms="3096" started-at="2023-02-01T22:31:45Z" finished-at="2023-02-01T22:31:48Z">
           <params>
             <param index="0">
               <value>
@@ -78,11 +78,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyClickSaveWithTitle()[pri:2, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="verifyClickSaveWithTitle" duration-ms="1566" started-at="2023-02-01T03:48:46Z" finished-at="2023-02-01T03:48:48Z">
+        <test-method status="PASS" signature="verifyClickSaveWithTitle()[pri:2, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="verifyClickSaveWithTitle" duration-ms="2728" started-at="2023-02-01T22:31:48Z" finished-at="2023-02-01T22:31:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickSaveWithTitle -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="browserQuit" is-config="true" duration-ms="754" started-at="2023-02-01T03:48:48Z" finished-at="2023-02-01T03:48:49Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="browserQuit" is-config="true" duration-ms="903" started-at="2023-02-01T22:31:50Z" finished-at="2023-02-01T22:31:51Z">
           <params>
             <param index="0">
               <value>
@@ -93,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="initialiseBrowser" is-config="true" duration-ms="2160" started-at="2023-02-01T03:48:49Z" finished-at="2023-02-01T03:48:51Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="initialiseBrowser" is-config="true" duration-ms="2855" started-at="2023-02-01T22:31:51Z" finished-at="2023-02-01T22:31:54Z">
           <params>
             <param index="0">
               <value>
@@ -104,11 +104,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyDuplicateTitleValidation()[pri:3, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="verifyDuplicateTitleValidation" duration-ms="1540" started-at="2023-02-01T03:48:51Z" finished-at="2023-02-01T03:48:52Z">
+        <test-method status="PASS" signature="verifyDuplicateTitleValidation()[pri:3, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="verifyDuplicateTitleValidation" duration-ms="2323" started-at="2023-02-01T22:31:54Z" finished-at="2023-02-01T22:31:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDuplicateTitleValidation -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="browserQuit" is-config="true" duration-ms="765" started-at="2023-02-01T03:48:52Z" finished-at="2023-02-01T03:48:53Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87]" name="browserQuit" is-config="true" duration-ms="856" started-at="2023-02-01T22:31:56Z" finished-at="2023-02-01T22:31:57Z">
           <params>
             <param index="0">
               <value>
@@ -121,7 +121,7 @@
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest -->
       <class name="com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="initialiseBrowser" is-config="true" duration-ms="2565" started-at="2023-02-01T03:47:49Z" finished-at="2023-02-01T03:47:52Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="initialiseBrowser" is-config="true" duration-ms="2921" started-at="2023-02-01T22:30:21Z" finished-at="2023-02-01T22:30:24Z">
           <params>
             <param index="0">
               <value>
@@ -132,11 +132,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifySearchInvalidData()[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="verifySearchInvalidData" duration-ms="1513" started-at="2023-02-01T03:47:52Z" finished-at="2023-02-01T03:47:53Z">
+        <test-method status="PASS" signature="verifySearchInvalidData()[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="verifySearchInvalidData" duration-ms="2373" started-at="2023-02-01T22:30:24Z" finished-at="2023-02-01T22:30:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchInvalidData -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="browserQuit" is-config="true" duration-ms="762" started-at="2023-02-01T03:47:53Z" finished-at="2023-02-01T03:47:54Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="browserQuit" is-config="true" duration-ms="896" started-at="2023-02-01T22:30:26Z" finished-at="2023-02-01T22:30:27Z">
           <params>
             <param index="0">
               <value>
@@ -147,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="initialiseBrowser" is-config="true" duration-ms="2147" started-at="2023-02-01T03:47:54Z" finished-at="2023-02-01T03:47:56Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="initialiseBrowser" is-config="true" duration-ms="2831" started-at="2023-02-01T22:30:27Z" finished-at="2023-02-01T22:30:30Z">
           <params>
             <param index="0">
               <value>
@@ -158,11 +158,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifySearchValidData()[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="verifySearchValidData" duration-ms="1241" started-at="2023-02-01T03:47:56Z" finished-at="2023-02-01T03:47:57Z">
+        <test-method status="PASS" signature="verifySearchValidData()[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="verifySearchValidData" duration-ms="2162" started-at="2023-02-01T22:30:30Z" finished-at="2023-02-01T22:30:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchValidData -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="browserQuit" is-config="true" duration-ms="688" started-at="2023-02-01T03:47:57Z" finished-at="2023-02-01T03:47:58Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd]" name="browserQuit" is-config="true" duration-ms="877" started-at="2023-02-01T22:30:32Z" finished-at="2023-02-01T22:30:33Z">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest -->
       <class name="com.obsqura.selenium.FinalProject.MobileSliderTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="initialiseBrowser" is-config="true" duration-ms="2187" started-at="2023-02-01T03:48:08Z" finished-at="2023-02-01T03:48:10Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="initialiseBrowser" is-config="true" duration-ms="4180" started-at="2023-02-01T22:30:48Z" finished-at="2023-02-01T22:30:53Z">
           <params>
             <param index="0">
               <value>
@@ -186,93 +186,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="FAIL" signature="VerifyAddNewSlider()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="VerifyAddNewSlider" duration-ms="1761" started-at="2023-02-01T03:48:10Z" finished-at="2023-02-01T03:48:12Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (727, 737)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [24e757a22ea1e0480f0e08d0f7b9108e, clickElement {id=c99c4c77-a4fc-46bd-a49f-d2bbcc903e21}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57488}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57488/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (24e757a22ea1e0480f0e08d0f7b9108e)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/list-mobileslider' and @class='small-box-footer']]
-Session ID: 24e757a22ea1e0480f0e08d0f7b9108e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 737)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [24e757a22ea1e0480f0e08d0f7b9108e, clickElement {id=c99c4c77-a4fc-46bd-a49f-d2bbcc903e21}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57488}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57488/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (24e757a22ea1e0480f0e08d0f7b9108e)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/list-mobileslider' and @class='small-box-footer']]
-Session ID: 24e757a22ea1e0480f0e08d0f7b9108e
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
-	at pages.MobileSliderPage.addNewSlider(MobileSliderPage.java:85)
-	at com.obsqura.selenium.FinalProject.MobileSliderTest.VerifyAddNewSlider(MobileSliderTest.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method status="PASS" signature="VerifyAddNewSlider()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="VerifyAddNewSlider" duration-ms="5496" started-at="2023-02-01T22:30:53Z" finished-at="2023-02-01T22:30:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyAddNewSlider -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="browserQuit" is-config="true" duration-ms="955" started-at="2023-02-01T03:48:12Z" finished-at="2023-02-01T03:48:13Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="browserQuit" is-config="true" duration-ms="851" started-at="2023-02-01T22:30:58Z" finished-at="2023-02-01T22:30:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyAddNewSlider status=FAILURE method=MobileSliderTest.VerifyAddNewSlider()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyAddNewSlider status=SUCCESS method=MobileSliderTest.VerifyAddNewSlider()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="initialiseBrowser" is-config="true" duration-ms="2148" started-at="2023-02-01T03:48:13Z" finished-at="2023-02-01T03:48:15Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="initialiseBrowser" is-config="true" duration-ms="2663" started-at="2023-02-01T22:30:59Z" finished-at="2023-02-01T22:31:02Z">
           <params>
             <param index="0">
               <value>
@@ -283,93 +212,22 @@ Session ID: 24e757a22ea1e0480f0e08d0f7b9108e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="FAIL" signature="verifyCheckButtonColors()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="verifyCheckButtonColors" duration-ms="1876" started-at="2023-02-01T03:48:15Z" finished-at="2023-02-01T03:48:17Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (727, 737)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [32a5169296c2e0d72947297d82fb8bbb, clickElement {id=efd42989-ad73-414a-baac-bf829b31e8d1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57513/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (32a5169296c2e0d72947297d82fb8bbb)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/list-mobileslider' and @class='small-box-footer']]
-Session ID: 32a5169296c2e0d72947297d82fb8bbb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 737)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [32a5169296c2e0d72947297d82fb8bbb, clickElement {id=efd42989-ad73-414a-baac-bf829b31e8d1}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57513/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (32a5169296c2e0d72947297d82fb8bbb)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/list-mobileslider' and @class='small-box-footer']]
-Session ID: 32a5169296c2e0d72947297d82fb8bbb
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
-	at pages.MobileSliderPage.checkButtonColors(MobileSliderPage.java:72)
-	at com.obsqura.selenium.FinalProject.MobileSliderTest.verifyCheckButtonColors(MobileSliderTest.java:26)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method status="PASS" signature="verifyCheckButtonColors()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="verifyCheckButtonColors" duration-ms="3410" started-at="2023-02-01T22:31:02Z" finished-at="2023-02-01T22:31:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckButtonColors -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="browserQuit" is-config="true" duration-ms="929" started-at="2023-02-01T03:48:17Z" finished-at="2023-02-01T03:48:18Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="browserQuit" is-config="true" duration-ms="858" started-at="2023-02-01T22:31:05Z" finished-at="2023-02-01T22:31:06Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCheckButtonColors status=FAILURE method=MobileSliderTest.verifyCheckButtonColors()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCheckButtonColors status=SUCCESS method=MobileSliderTest.verifyCheckButtonColors()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="initialiseBrowser" is-config="true" duration-ms="2220" started-at="2023-02-01T03:48:18Z" finished-at="2023-02-01T03:48:20Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="initialiseBrowser" is-config="true" duration-ms="2915" started-at="2023-02-01T22:31:06Z" finished-at="2023-02-01T22:31:09Z">
           <params>
             <param index="0">
               <value>
@@ -380,29 +238,29 @@ Session ID: 32a5169296c2e0d72947297d82fb8bbb
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="FAIL" signature="verifyCheckColumnHeaders()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="verifyCheckColumnHeaders" duration-ms="1871" started-at="2023-02-01T03:48:20Z" finished-at="2023-02-01T03:48:22Z">
+        <test-method status="FAIL" signature="verifyCheckColumnHeaders()[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="verifyCheckColumnHeaders" duration-ms="2223" started-at="2023-02-01T22:31:09Z" finished-at="2023-02-01T22:31:11Z">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (727, 737)
+              <![CDATA[element click intercepted: Element is not clickable at point (727, 723)
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [00e35e46c75e94996d946214c49ff2b2, clickElement {id=b65b4ab5-865b-4264-8376-ef7023487d25}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57537/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (00e35e46c75e94996d946214c49ff2b2)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/list-mobileslider' and @class='small-box-footer']]
-Session ID: 00e35e46c75e94996d946214c49ff2b2]]>
+Command: [dda7d42527e89af3e939ff58c1146b0f, clickElement {id=c60a45df-f795-4b69-8189-c469b01274a5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55032/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (dda7d42527e89af3e939ff58c1146b0f)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/list-mobileslider' and @class='small-box-footer']]
+Session ID: dda7d42527e89af3e939ff58c1146b0f]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 737)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 723)
   (Session info: chrome=109.0.5414.120)
 Build info: version: '4.7.2', revision: '4d4020c3b7'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [00e35e46c75e94996d946214c49ff2b2, clickElement {id=b65b4ab5-865b-4264-8376-ef7023487d25}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57537}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57537/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (00e35e46c75e94996d946214c49ff2b2)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/list-mobileslider' and @class='small-box-footer']]
-Session ID: 00e35e46c75e94996d946214c49ff2b2
+Command: [dda7d42527e89af3e939ff58c1146b0f, clickElement {id=c60a45df-f795-4b69-8189-c469b01274a5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55032/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (dda7d42527e89af3e939ff58c1146b0f)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/list-mobileslider' and @class='small-box-footer']]
+Session ID: dda7d42527e89af3e939ff58c1146b0f
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -422,8 +280,8 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 	at com.sun.proxy.$Proxy16.click(Unknown Source)
 	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
-	at pages.MobileSliderPage.checkColumnHeaders(MobileSliderPage.java:52)
-	at com.obsqura.selenium.FinalProject.MobileSliderTest.verifyCheckColumnHeaders(MobileSliderTest.java:19)
+	at pages.MobileSliderPage.checkColumnHeaders(MobileSliderPage.java:54)
+	at com.obsqura.selenium.FinalProject.MobileSliderTest.verifyCheckColumnHeaders(MobileSliderTest.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -455,7 +313,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckColumnHeaders -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="browserQuit" is-config="true" duration-ms="945" started-at="2023-02-01T03:48:22Z" finished-at="2023-02-01T03:48:23Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d]" name="browserQuit" is-config="true" duration-ms="1129" started-at="2023-02-01T22:31:11Z" finished-at="2023-02-01T22:31:12Z">
           <params>
             <param index="0">
               <value>
@@ -468,7 +326,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.MobileSliderTest -->
       <class name="com.obsqura.selenium.FinalProject.PushNotificationsTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="initialiseBrowser" is-config="true" duration-ms="2130" started-at="2023-02-01T03:48:23Z" finished-at="2023-02-01T03:48:25Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="initialiseBrowser" is-config="true" duration-ms="4393" started-at="2023-02-01T22:31:12Z" finished-at="2023-02-01T22:31:17Z">
           <params>
             <param index="0">
               <value>
@@ -479,11 +337,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyCheckTitleOfPage()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="verifyCheckTitleOfPage" duration-ms="890" started-at="2023-02-01T03:48:25Z" finished-at="2023-02-01T03:48:26Z">
+        <test-method status="PASS" signature="verifyCheckTitleOfPage()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="verifyCheckTitleOfPage" duration-ms="1386" started-at="2023-02-01T22:31:17Z" finished-at="2023-02-01T22:31:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckTitleOfPage -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="browserQuit" is-config="true" duration-ms="752" started-at="2023-02-01T03:48:26Z" finished-at="2023-02-01T03:48:26Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="browserQuit" is-config="true" duration-ms="900" started-at="2023-02-01T22:31:18Z" finished-at="2023-02-01T22:31:19Z">
           <params>
             <param index="0">
               <value>
@@ -494,7 +352,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="initialiseBrowser" is-config="true" duration-ms="2363" started-at="2023-02-01T03:48:26Z" finished-at="2023-02-01T03:48:29Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="initialiseBrowser" is-config="true" duration-ms="2704" started-at="2023-02-01T22:31:19Z" finished-at="2023-02-01T22:31:22Z">
           <params>
             <param index="0">
               <value>
@@ -505,11 +363,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyResetNotification()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="verifyResetNotification" duration-ms="1534" started-at="2023-02-01T03:48:29Z" finished-at="2023-02-01T03:48:30Z">
+        <test-method status="PASS" signature="verifyResetNotification()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="verifyResetNotification" duration-ms="2651" started-at="2023-02-01T22:31:22Z" finished-at="2023-02-01T22:31:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResetNotification -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="browserQuit" is-config="true" duration-ms="731" started-at="2023-02-01T03:48:30Z" finished-at="2023-02-01T03:48:31Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="browserQuit" is-config="true" duration-ms="845" started-at="2023-02-01T22:31:24Z" finished-at="2023-02-01T22:31:25Z">
           <params>
             <param index="0">
               <value>
@@ -520,7 +378,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="initialiseBrowser" is-config="true" duration-ms="2321" started-at="2023-02-01T03:48:31Z" finished-at="2023-02-01T03:48:33Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="initialiseBrowser" is-config="true" duration-ms="3968" started-at="2023-02-01T22:31:25Z" finished-at="2023-02-01T22:31:29Z">
           <params>
             <param index="0">
               <value>
@@ -531,11 +389,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifySendNotification()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="verifySendNotification" duration-ms="1769" started-at="2023-02-01T03:48:33Z" finished-at="2023-02-01T03:48:35Z">
+        <test-method status="PASS" signature="verifySendNotification()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="verifySendNotification" duration-ms="2450" started-at="2023-02-01T22:31:29Z" finished-at="2023-02-01T22:31:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySendNotification -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="browserQuit" is-config="true" duration-ms="730" started-at="2023-02-01T03:48:35Z" finished-at="2023-02-01T03:48:36Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495]" name="browserQuit" is-config="true" duration-ms="898" started-at="2023-02-01T22:31:31Z" finished-at="2023-02-01T22:31:32Z">
           <params>
             <param index="0">
               <value>
@@ -548,7 +406,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.PushNotificationsTest -->
       <class name="com.obsqura.selenium.FinalProject.ManageLocationTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="initialiseBrowser" is-config="true" duration-ms="2322" started-at="2023-02-01T03:46:54Z" finished-at="2023-02-01T03:46:56Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="initialiseBrowser" is-config="true" duration-ms="3115" started-at="2023-02-01T22:28:54Z" finished-at="2023-02-01T22:28:57Z">
           <params>
             <param index="0">
               <value>
@@ -559,11 +417,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyLocationAndDeliveryChargeFieldsDisplayedOrNot()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="verifyLocationAndDeliveryChargeFieldsDisplayedOrNot" duration-ms="1331" started-at="2023-02-01T03:46:56Z" finished-at="2023-02-01T03:46:57Z">
+        <test-method status="PASS" signature="verifyLocationAndDeliveryChargeFieldsDisplayedOrNot()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="verifyLocationAndDeliveryChargeFieldsDisplayedOrNot" duration-ms="1983" started-at="2023-02-01T22:28:57Z" finished-at="2023-02-01T22:28:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLocationAndDeliveryChargeFieldsDisplayedOrNot -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="browserQuit" is-config="true" duration-ms="747" started-at="2023-02-01T03:46:57Z" finished-at="2023-02-01T03:46:58Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="browserQuit" is-config="true" duration-ms="996" started-at="2023-02-01T22:28:59Z" finished-at="2023-02-01T22:29:00Z">
           <params>
             <param index="0">
               <value>
@@ -574,7 +432,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="initialiseBrowser" is-config="true" duration-ms="2271" started-at="2023-02-01T03:46:58Z" finished-at="2023-02-01T03:47:00Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="initialiseBrowser" is-config="true" duration-ms="2751" started-at="2023-02-01T22:29:00Z" finished-at="2023-02-01T22:29:02Z">
           <params>
             <param index="0">
               <value>
@@ -585,7 +443,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifycreateNewLocation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="verifycreateNewLocation" duration-ms="2289" started-at="2023-02-01T03:47:00Z" finished-at="2023-02-01T03:47:03Z">
+        <test-method status="PASS" signature="verifycreateNewLocation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="verifycreateNewLocation" duration-ms="3672" started-at="2023-02-01T22:29:02Z" finished-at="2023-02-01T22:29:06Z">
           <params>
             <param index="0">
               <value>
@@ -606,7 +464,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycreateNewLocation -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="browserQuit" is-config="true" duration-ms="761" started-at="2023-02-01T03:47:03Z" finished-at="2023-02-01T03:47:03Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a]" name="browserQuit" is-config="true" duration-ms="865" started-at="2023-02-01T22:29:06Z" finished-at="2023-02-01T22:29:07Z">
           <params>
             <param index="0">
               <value>
@@ -619,7 +477,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ManageLocationTest -->
       <class name="com.obsqura.selenium.FinalProject.ManageSliderTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="initialiseBrowser" is-config="true" duration-ms="2163" started-at="2023-02-01T03:47:58Z" finished-at="2023-02-01T03:48:00Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="initialiseBrowser" is-config="true" duration-ms="3118" started-at="2023-02-01T22:30:33Z" finished-at="2023-02-01T22:30:36Z">
           <params>
             <param index="0">
               <value>
@@ -630,11 +488,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyAddSlider()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="verifyAddSlider" duration-ms="1800" started-at="2023-02-01T03:48:00Z" finished-at="2023-02-01T03:48:02Z">
+        <test-method status="PASS" signature="verifyAddSlider()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="verifyAddSlider" duration-ms="3711" started-at="2023-02-01T22:30:36Z" finished-at="2023-02-01T22:30:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddSlider -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="browserQuit" is-config="true" duration-ms="719" started-at="2023-02-01T03:48:02Z" finished-at="2023-02-01T03:48:03Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="browserQuit" is-config="true" duration-ms="849" started-at="2023-02-01T22:30:40Z" finished-at="2023-02-01T22:30:41Z">
           <params>
             <param index="0">
               <value>
@@ -645,7 +503,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="initialiseBrowser" is-config="true" duration-ms="2128" started-at="2023-02-01T03:48:03Z" finished-at="2023-02-01T03:48:05Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="initialiseBrowser" is-config="true" duration-ms="3516" started-at="2023-02-01T22:30:41Z" finished-at="2023-02-01T22:30:44Z">
           <params>
             <param index="0">
               <value>
@@ -656,11 +514,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyNavigateBackToHome()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="verifyNavigateBackToHome" duration-ms="2135" started-at="2023-02-01T03:48:05Z" finished-at="2023-02-01T03:48:07Z">
+        <test-method status="PASS" signature="verifyNavigateBackToHome()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="verifyNavigateBackToHome" duration-ms="3211" started-at="2023-02-01T22:30:44Z" finished-at="2023-02-01T22:30:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigateBackToHome -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="browserQuit" is-config="true" duration-ms="770" started-at="2023-02-01T03:48:07Z" finished-at="2023-02-01T03:48:08Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageSliderTest@23986957]" name="browserQuit" is-config="true" duration-ms="990" started-at="2023-02-01T22:30:47Z" finished-at="2023-02-01T22:30:48Z">
           <params>
             <param index="0">
               <value>
@@ -673,7 +531,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ManageSliderTest -->
       <class name="com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest@6a01e23]" name="initialiseBrowser" is-config="true" duration-ms="2360" started-at="2023-02-01T03:46:38Z" finished-at="2023-02-01T03:46:41Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest@6a01e23]" name="initialiseBrowser" is-config="true" duration-ms="3298" started-at="2023-02-01T22:28:30Z" finished-at="2023-02-01T22:28:33Z">
           <params>
             <param index="0">
               <value>
@@ -684,11 +542,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyClickExpenseCategory()[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest@6a01e23]" name="verifyClickExpenseCategory" duration-ms="1323" started-at="2023-02-01T03:46:41Z" finished-at="2023-02-01T03:46:42Z">
+        <test-method status="PASS" signature="verifyClickExpenseCategory()[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest@6a01e23]" name="verifyClickExpenseCategory" duration-ms="2297" started-at="2023-02-01T22:28:33Z" finished-at="2023-02-01T22:28:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickExpenseCategory -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest@6a01e23]" name="browserQuit" is-config="true" duration-ms="768" started-at="2023-02-01T03:46:42Z" finished-at="2023-02-01T03:46:43Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest@6a01e23]" name="browserQuit" is-config="true" duration-ms="937" started-at="2023-02-01T22:28:35Z" finished-at="2023-02-01T22:28:36Z">
           <params>
             <param index="0">
               <value>
@@ -701,7 +559,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest -->
       <class name="com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="initialiseBrowser" is-config="true" duration-ms="2283" started-at="2023-02-01T03:47:29Z" finished-at="2023-02-01T03:47:32Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="initialiseBrowser" is-config="true" duration-ms="2887" started-at="2023-02-01T22:29:52Z" finished-at="2023-02-01T22:29:55Z">
           <params>
             <param index="0">
               <value>
@@ -712,11 +570,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyClickBackButtonFromViewScreen()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="verifyClickBackButtonFromViewScreen" duration-ms="2384" started-at="2023-02-01T03:47:32Z" finished-at="2023-02-01T03:47:34Z">
+        <test-method status="PASS" signature="verifyClickBackButtonFromViewScreen()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="verifyClickBackButtonFromViewScreen" duration-ms="3435" started-at="2023-02-01T22:29:55Z" finished-at="2023-02-01T22:29:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickBackButtonFromViewScreen -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="browserQuit" is-config="true" duration-ms="774" started-at="2023-02-01T03:47:34Z" finished-at="2023-02-01T03:47:35Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="browserQuit" is-config="true" duration-ms="833" started-at="2023-02-01T22:29:58Z" finished-at="2023-02-01T22:29:59Z">
           <params>
             <param index="0">
               <value>
@@ -727,7 +585,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="initialiseBrowser" is-config="true" duration-ms="2167" started-at="2023-02-01T03:47:35Z" finished-at="2023-02-01T03:47:37Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="initialiseBrowser" is-config="true" duration-ms="3754" started-at="2023-02-01T22:29:59Z" finished-at="2023-02-01T22:30:03Z">
           <params>
             <param index="0">
               <value>
@@ -738,11 +596,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyClickViewButton()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="verifyClickViewButton" duration-ms="1756" started-at="2023-02-01T03:47:37Z" finished-at="2023-02-01T03:47:39Z">
+        <test-method status="PASS" signature="verifyClickViewButton()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="verifyClickViewButton" duration-ms="3865" started-at="2023-02-01T22:30:03Z" finished-at="2023-02-01T22:30:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyClickViewButton -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="browserQuit" is-config="true" duration-ms="763" started-at="2023-02-01T03:47:39Z" finished-at="2023-02-01T03:47:40Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="browserQuit" is-config="true" duration-ms="839" started-at="2023-02-01T22:30:07Z" finished-at="2023-02-01T22:30:08Z">
           <params>
             <param index="0">
               <value>
@@ -753,7 +611,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="initialiseBrowser" is-config="true" duration-ms="2311" started-at="2023-02-01T03:47:40Z" finished-at="2023-02-01T03:47:42Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="initialiseBrowser" is-config="true" duration-ms="3200" started-at="2023-02-01T22:30:08Z" finished-at="2023-02-01T22:30:11Z">
           <params>
             <param index="0">
               <value>
@@ -764,11 +622,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyDeleteOrder()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="verifyDeleteOrder" duration-ms="2093" started-at="2023-02-01T03:47:42Z" finished-at="2023-02-01T03:47:44Z">
+        <test-method status="PASS" signature="verifyDeleteOrder()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="verifyDeleteOrder" duration-ms="2708" started-at="2023-02-01T22:30:11Z" finished-at="2023-02-01T22:30:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeleteOrder -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="browserQuit" is-config="true" duration-ms="779" started-at="2023-02-01T03:47:44Z" finished-at="2023-02-01T03:47:45Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="browserQuit" is-config="true" duration-ms="941" started-at="2023-02-01T22:30:14Z" finished-at="2023-02-01T22:30:15Z">
           <params>
             <param index="0">
               <value>
@@ -779,7 +637,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="initialiseBrowser" is-config="true" duration-ms="2179" started-at="2023-02-01T03:47:45Z" finished-at="2023-02-01T03:47:47Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="initialiseBrowser" is-config="true" duration-ms="3111" started-at="2023-02-01T22:30:15Z" finished-at="2023-02-01T22:30:18Z">
           <params>
             <param index="0">
               <value>
@@ -790,11 +648,11 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyStatusColumnOptionColors()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="verifyStatusColumnOptionColors" duration-ms="1421" started-at="2023-02-01T03:47:47Z" finished-at="2023-02-01T03:47:48Z">
+        <test-method status="PASS" signature="verifyStatusColumnOptionColors()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="verifyStatusColumnOptionColors" duration-ms="2241" started-at="2023-02-01T22:30:18Z" finished-at="2023-02-01T22:30:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyStatusColumnOptionColors -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="browserQuit" is-config="true" duration-ms="784" started-at="2023-02-01T03:47:48Z" finished-at="2023-02-01T03:47:49Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f]" name="browserQuit" is-config="true" duration-ms="916" started-at="2023-02-01T22:30:20Z" finished-at="2023-02-01T22:30:21Z">
           <params>
             <param index="0">
               <value>
@@ -807,7 +665,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest -->
       <class name="com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@6293abcc]" name="initialiseBrowser" is-config="true" duration-ms="2362" started-at="2023-02-01T03:46:47Z" finished-at="2023-02-01T03:46:49Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@6293abcc]" name="initialiseBrowser" is-config="true" duration-ms="3812" started-at="2023-02-01T22:28:45Z" finished-at="2023-02-01T22:28:48Z">
           <params>
             <param index="0">
               <value>
@@ -818,7 +676,7 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="FAIL" signature="VerifyCreateNewDeliveryBoy(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@6293abcc]" name="VerifyCreateNewDeliveryBoy" duration-ms="3289" started-at="2023-02-01T03:46:49Z" data-provider="NewDeliveryBoyRecord" finished-at="2023-02-01T03:46:53Z">
+        <test-method status="PASS" signature="VerifyCreateNewDeliveryBoy(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@6293abcc]" name="VerifyCreateNewDeliveryBoy" duration-ms="4322" started-at="2023-02-01T22:28:48Z" data-provider="NewDeliveryBoyRecord" finished-at="2023-02-01T22:28:53Z">
           <params>
             <param index="0">
               <value>
@@ -841,85 +699,14 @@ Session ID: 00e35e46c75e94996d946214c49ff2b2
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (334, 773)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f9cb34fb0a5a4d58a56ccb69891e9045, clickElement {id=c84b1ba8-4888-4022-bf9b-cead81cb2da4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57094/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f9cb34fb0a5a4d58a56ccb69891e9045)] -> xpath: //button[@type='submit']]
-Session ID: f9cb34fb0a5a4d58a56ccb69891e9045]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (334, 773)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f9cb34fb0a5a4d58a56ccb69891e9045, clickElement {id=c84b1ba8-4888-4022-bf9b-cead81cb2da4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57094}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57094/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (f9cb34fb0a5a4d58a56ccb69891e9045)] -> xpath: //button[@type='submit']]
-Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
-	at pages.ManageDeliveryBoyPage.createNewDeliveryBoy(ManageDeliveryBoyPage.java:65)
-	at com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest.VerifyCreateNewDeliveryBoy(ManageDeliveryBoyTest.java:18)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyCreateNewDeliveryBoy -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@6293abcc]" name="browserQuit" is-config="true" duration-ms="985" started-at="2023-02-01T03:46:53Z" finished-at="2023-02-01T03:46:54Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@6293abcc]" name="browserQuit" is-config="true" duration-ms="876" started-at="2023-02-01T22:28:53Z" finished-at="2023-02-01T22:28:54Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyCreateNewDeliveryBoy status=FAILURE method=ManageDeliveryBoyTest.VerifyCreateNewDeliveryBoy(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@6293abcc] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyCreateNewDeliveryBoy status=SUCCESS method=ManageDeliveryBoyTest.VerifyCreateNewDeliveryBoy(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@6293abcc] output={null}]]]>
               </value>
             </param>
           </params>
@@ -928,7 +715,7 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest -->
       <class name="com.obsqura.selenium.FinalProject.ManageNewsTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageNewsTest@70be0a2b]" name="initialiseBrowser" is-config="true" duration-ms="2229" started-at="2023-02-01T03:47:24Z" finished-at="2023-02-01T03:47:27Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageNewsTest@70be0a2b]" name="initialiseBrowser" is-config="true" duration-ms="2777" started-at="2023-02-01T22:29:45Z" finished-at="2023-02-01T22:29:48Z">
           <params>
             <param index="0">
               <value>
@@ -939,11 +726,11 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="VerifyEnterAndSaveNews()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageNewsTest@70be0a2b]" name="VerifyEnterAndSaveNews" duration-ms="1996" started-at="2023-02-01T03:47:27Z" finished-at="2023-02-01T03:47:29Z">
+        <test-method status="PASS" signature="VerifyEnterAndSaveNews()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageNewsTest@70be0a2b]" name="VerifyEnterAndSaveNews" duration-ms="3148" started-at="2023-02-01T22:29:48Z" finished-at="2023-02-01T22:29:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyEnterAndSaveNews -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageNewsTest@70be0a2b]" name="browserQuit" is-config="true" duration-ms="749" started-at="2023-02-01T03:47:29Z" finished-at="2023-02-01T03:47:29Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageNewsTest@70be0a2b]" name="browserQuit" is-config="true" duration-ms="944" started-at="2023-02-01T22:29:51Z" finished-at="2023-02-01T22:29:52Z">
           <params>
             <param index="0">
               <value>
@@ -956,7 +743,7 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ManageNewsTest -->
       <class name="com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest@f8c1ddd]" name="initialiseBrowser" is-config="true" duration-ms="2340" started-at="2023-02-01T03:47:20Z" finished-at="2023-02-01T03:47:22Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest@f8c1ddd]" name="initialiseBrowser" is-config="true" duration-ms="3665" started-at="2023-02-01T22:29:39Z" finished-at="2023-02-01T22:29:43Z">
           <params>
             <param index="0">
               <value>
@@ -967,11 +754,11 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyExpenseManageOptions()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest@f8c1ddd]" name="verifyExpenseManageOptions" duration-ms="1406" started-at="2023-02-01T03:47:22Z" finished-at="2023-02-01T03:47:24Z">
+        <test-method status="PASS" signature="verifyExpenseManageOptions()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest@f8c1ddd]" name="verifyExpenseManageOptions" duration-ms="1788" started-at="2023-02-01T22:29:43Z" finished-at="2023-02-01T22:29:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyExpenseManageOptions -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest@f8c1ddd]" name="browserQuit" is-config="true" duration-ms="805" started-at="2023-02-01T03:47:24Z" finished-at="2023-02-01T03:47:24Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest@f8c1ddd]" name="browserQuit" is-config="true" duration-ms="833" started-at="2023-02-01T22:29:44Z" finished-at="2023-02-01T22:29:45Z">
           <params>
             <param index="0">
               <value>
@@ -984,7 +771,7 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest -->
       <class name="com.obsqura.selenium.FinalProject.AdminUsersTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="initialiseBrowser" is-config="true" duration-ms="4553" started-at="2023-02-01T03:46:16Z" finished-at="2023-02-01T03:46:21Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="initialiseBrowser" is-config="true" duration-ms="13133" started-at="2023-02-01T22:27:49Z" finished-at="2023-02-01T22:28:02Z">
           <params>
             <param index="0">
               <value>
@@ -995,11 +782,11 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyCheckColumnHeaders()[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="verifyCheckColumnHeaders" duration-ms="2313" started-at="2023-02-01T03:46:21Z" finished-at="2023-02-01T03:46:23Z">
+        <test-method status="PASS" signature="verifyCheckColumnHeaders()[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="verifyCheckColumnHeaders" duration-ms="4754" started-at="2023-02-01T22:28:02Z" finished-at="2023-02-01T22:28:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckColumnHeaders -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="browserQuit" is-config="true" duration-ms="784" started-at="2023-02-01T03:46:23Z" finished-at="2023-02-01T03:46:24Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="browserQuit" is-config="true" duration-ms="993" started-at="2023-02-01T22:28:07Z" finished-at="2023-02-01T22:28:08Z">
           <params>
             <param index="0">
               <value>
@@ -1010,7 +797,7 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="initialiseBrowser" is-config="true" duration-ms="2216" started-at="2023-02-01T03:46:24Z" finished-at="2023-02-01T03:46:26Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="initialiseBrowser" is-config="true" duration-ms="3820" started-at="2023-02-01T22:28:08Z" finished-at="2023-02-01T22:28:11Z">
           <params>
             <param index="0">
               <value>
@@ -1021,11 +808,11 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyCreateNewUser()[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="verifyCreateNewUser" duration-ms="2409" started-at="2023-02-01T03:46:26Z" finished-at="2023-02-01T03:46:28Z">
+        <test-method status="PASS" signature="verifyCreateNewUser()[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="verifyCreateNewUser" duration-ms="4023" started-at="2023-02-01T22:28:11Z" finished-at="2023-02-01T22:28:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateNewUser -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="browserQuit" is-config="true" duration-ms="761" started-at="2023-02-01T03:46:28Z" finished-at="2023-02-01T03:46:29Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="browserQuit" is-config="true" duration-ms="918" started-at="2023-02-01T22:28:15Z" finished-at="2023-02-01T22:28:16Z">
           <params>
             <param index="0">
               <value>
@@ -1036,7 +823,7 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="initialiseBrowser" is-config="true" duration-ms="2208" started-at="2023-02-01T03:46:29Z" finished-at="2023-02-01T03:46:31Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="initialiseBrowser" is-config="true" duration-ms="2871" started-at="2023-02-01T22:28:16Z" finished-at="2023-02-01T22:28:19Z">
           <params>
             <param index="0">
               <value>
@@ -1047,11 +834,11 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyResetData()[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="verifyResetData" duration-ms="1993" started-at="2023-02-01T03:46:31Z" finished-at="2023-02-01T03:46:33Z">
+        <test-method status="PASS" signature="verifyResetData()[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="verifyResetData" duration-ms="2949" started-at="2023-02-01T22:28:19Z" finished-at="2023-02-01T22:28:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResetData -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="browserQuit" is-config="true" duration-ms="780" started-at="2023-02-01T03:46:33Z" finished-at="2023-02-01T03:46:34Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0]" name="browserQuit" is-config="true" duration-ms="889" started-at="2023-02-01T22:28:22Z" finished-at="2023-02-01T22:28:23Z">
           <params>
             <param index="0">
               <value>
@@ -1064,7 +851,7 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.AdminUsersTest -->
       <class name="com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="initialiseBrowser" is-config="true" duration-ms="2305" started-at="2023-02-01T03:47:03Z" finished-at="2023-02-01T03:47:06Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="initialiseBrowser" is-config="true" duration-ms="2878" started-at="2023-02-01T22:29:07Z" finished-at="2023-02-01T22:29:10Z">
           <params>
             <param index="0">
               <value>
@@ -1075,93 +862,22 @@ Session ID: f9cb34fb0a5a4d58a56ccb69891e9045
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="FAIL" signature="verifyCreateNewExpenseRecord()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="verifyCreateNewExpenseRecord" duration-ms="2009" started-at="2023-02-01T03:47:06Z" finished-at="2023-02-01T03:47:08Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (1354, 735)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7239e769db0a6fed8d3f9272d4050f2e, clickElement {id=9973ee67-7cf3-4718-84c5-89c3c0265d0b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57167/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7239e769db0a6fed8d3f9272d4050f2e)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/expense']]
-Session ID: 7239e769db0a6fed8d3f9272d4050f2e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1354, 735)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [7239e769db0a6fed8d3f9272d4050f2e, clickElement {id=9973ee67-7cf3-4718-84c5-89c3c0265d0b}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57167}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57167/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (7239e769db0a6fed8d3f9272d4050f2e)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/expense']]
-Session ID: 7239e769db0a6fed8d3f9272d4050f2e
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
-	at pages.ManageExpenseFromDashboard.createNewExpenseRecord(ManageExpenseFromDashboard.java:86)
-	at com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest.verifyCreateNewExpenseRecord(ManageExpenseFromDashboardTest.java:25)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method status="PASS" signature="verifyCreateNewExpenseRecord()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="verifyCreateNewExpenseRecord" duration-ms="7297" started-at="2023-02-01T22:29:10Z" finished-at="2023-02-01T22:29:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateNewExpenseRecord -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="browserQuit" is-config="true" duration-ms="955" started-at="2023-02-01T03:47:08Z" finished-at="2023-02-01T03:47:09Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="browserQuit" is-config="true" duration-ms="953" started-at="2023-02-01T22:29:17Z" finished-at="2023-02-01T22:29:18Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyCreateNewExpenseRecord status=FAILURE method=ManageExpenseFromDashboardTest.verifyCreateNewExpenseRecord()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d] output={null}]]]>
+                <![CDATA[[TestResult name=verifyCreateNewExpenseRecord status=SUCCESS method=ManageExpenseFromDashboardTest.verifyCreateNewExpenseRecord()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="initialiseBrowser" is-config="true" duration-ms="2265" started-at="2023-02-01T03:47:09Z" finished-at="2023-02-01T03:47:11Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="initialiseBrowser" is-config="true" duration-ms="3437" started-at="2023-02-01T22:29:18Z" finished-at="2023-02-01T22:29:22Z">
           <params>
             <param index="0">
               <value>
@@ -1172,93 +888,22 @@ Session ID: 7239e769db0a6fed8d3f9272d4050f2e
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="FAIL" signature="verifySelectDateFromCalendar()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="verifySelectDateFromCalendar" duration-ms="1918" started-at="2023-02-01T03:47:11Z" finished-at="2023-02-01T03:47:13Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (1354, 737)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1cdbf641857ff3ed792f07bc97fac0c1, clickElement {id=52bc6f68-b5ab-4955-8b14-3e9babbf8500}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57192/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (1cdbf641857ff3ed792f07bc97fac0c1)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/expense']]
-Session ID: 1cdbf641857ff3ed792f07bc97fac0c1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1354, 737)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1cdbf641857ff3ed792f07bc97fac0c1, clickElement {id=52bc6f68-b5ab-4955-8b14-3e9babbf8500}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57192}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57192/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (1cdbf641857ff3ed792f07bc97fac0c1)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/expense']]
-Session ID: 1cdbf641857ff3ed792f07bc97fac0c1
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
-	at pages.ManageExpenseFromDashboard.createExpenseRecordByselectDateFromCalendar(ManageExpenseFromDashboard.java:116)
-	at com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest.verifySelectDateFromCalendar(ManageExpenseFromDashboardTest.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method status="PASS" signature="verifySelectDateFromCalendar()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="verifySelectDateFromCalendar" duration-ms="7271" started-at="2023-02-01T22:29:22Z" finished-at="2023-02-01T22:29:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectDateFromCalendar -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="browserQuit" is-config="true" duration-ms="941" started-at="2023-02-01T03:47:13Z" finished-at="2023-02-01T03:47:14Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="browserQuit" is-config="true" duration-ms="939" started-at="2023-02-01T22:29:29Z" finished-at="2023-02-01T22:29:30Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifySelectDateFromCalendar status=FAILURE method=ManageExpenseFromDashboardTest.verifySelectDateFromCalendar()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d] output={null}]]]>
+                <![CDATA[[TestResult name=verifySelectDateFromCalendar status=SUCCESS method=ManageExpenseFromDashboardTest.verifySelectDateFromCalendar()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserQuit -->
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="initialiseBrowser" is-config="true" duration-ms="3228" started-at="2023-02-01T03:47:14Z" finished-at="2023-02-01T03:47:17Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="initialiseBrowser" is-config="true" duration-ms="4976" started-at="2023-02-01T22:29:30Z" finished-at="2023-02-01T22:29:35Z">
           <params>
             <param index="0">
               <value>
@@ -1269,86 +914,15 @@ Session ID: 1cdbf641857ff3ed792f07bc97fac0c1
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="FAIL" signature="verifyTodaysDateInDateField()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="verifyTodaysDateInDateField" duration-ms="1879" started-at="2023-02-01T03:47:17Z" finished-at="2023-02-01T03:47:19Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element is not clickable at point (1354, 737)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc9e6969a2b8fa2bddf1d33fcb488ed3, clickElement {id=e4a0959d-a1e6-4f7c-83e1-0a54950807a4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57216/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (cc9e6969a2b8fa2bddf1d33fcb488ed3)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/expense']]
-Session ID: cc9e6969a2b8fa2bddf1d33fcb488ed3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1354, 737)
-  (Session info: chrome=109.0.5414.120)
-Build info: version: '4.7.2', revision: '4d4020c3b7'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_361'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [cc9e6969a2b8fa2bddf1d33fcb488ed3, clickElement {id=e4a0959d-a1e6-4f7c-83e1-0a54950807a4}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57216}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57216/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (cc9e6969a2b8fa2bddf1d33fcb488ed3)] -> xpath: //a[@href='https://groceryapp.uniqassosiates.com/admin/expense']]
-Session ID: cc9e6969a2b8fa2bddf1d33fcb488ed3
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
-	at com.sun.proxy.$Proxy16.click(Unknown Source)
-	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
-	at pages.ManageExpenseFromDashboard.checkTodaysDateInDateField(ManageExpenseFromDashboard.java:72)
-	at com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest.verifyTodaysDateInDateField(ManageExpenseFromDashboardTest.java:18)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method status="PASS" signature="verifyTodaysDateInDateField()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="verifyTodaysDateInDateField" duration-ms="3422" started-at="2023-02-01T22:29:35Z" finished-at="2023-02-01T22:29:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTodaysDateInDateField -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="browserQuit" is-config="true" duration-ms="980" started-at="2023-02-01T03:47:19Z" finished-at="2023-02-01T03:47:20Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d]" name="browserQuit" is-config="true" duration-ms="869" started-at="2023-02-01T22:29:38Z" finished-at="2023-02-01T22:29:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyTodaysDateInDateField status=FAILURE method=ManageExpenseFromDashboardTest.verifyTodaysDateInDateField()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d] output={null}]]]>
+                <![CDATA[[TestResult name=verifyTodaysDateInDateField status=SUCCESS method=ManageExpenseFromDashboardTest.verifyTodaysDateInDateField()[pri:0, instance:com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1357,7 +931,7 @@ Session ID: cc9e6969a2b8fa2bddf1d33fcb488ed3
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest -->
       <class name="com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest@7d3a22a9]" name="initialiseBrowser" is-config="true" duration-ms="2148" started-at="2023-02-01T03:48:36Z" finished-at="2023-02-01T03:48:38Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest@7d3a22a9]" name="initialiseBrowser" is-config="true" duration-ms="3752" started-at="2023-02-01T22:31:32Z" finished-at="2023-02-01T22:31:36Z">
           <params>
             <param index="0">
               <value>
@@ -1368,11 +942,11 @@ Session ID: cc9e6969a2b8fa2bddf1d33fcb488ed3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyFindBackgroundColor()[pri:0, instance:com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest@7d3a22a9]" name="verifyFindBackgroundColor" duration-ms="1242" started-at="2023-02-01T03:48:38Z" finished-at="2023-02-01T03:48:39Z">
+        <test-method status="PASS" signature="verifyFindBackgroundColor()[pri:0, instance:com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest@7d3a22a9]" name="verifyFindBackgroundColor" duration-ms="1793" started-at="2023-02-01T22:31:36Z" finished-at="2023-02-01T22:31:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFindBackgroundColor -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest@7d3a22a9]" name="browserQuit" is-config="true" duration-ms="735" started-at="2023-02-01T03:48:39Z" finished-at="2023-02-01T03:48:40Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest@7d3a22a9]" name="browserQuit" is-config="true" duration-ms="874" started-at="2023-02-01T22:31:38Z" finished-at="2023-02-01T22:31:39Z">
           <params>
             <param index="0">
               <value>
@@ -1385,7 +959,7 @@ Session ID: cc9e6969a2b8fa2bddf1d33fcb488ed3
         </test-method> <!-- browserQuit -->
       </class> <!-- com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest -->
       <class name="com.obsqura.selenium.FinalProject.LoginPageTest">
-        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.LoginPageTest@5a955565]" name="initialiseBrowser" is-config="true" duration-ms="2419" started-at="2023-02-01T03:46:43Z" finished-at="2023-02-01T03:46:45Z">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.LoginPageTest@5a955565]" name="initialiseBrowser" is-config="true" duration-ms="5041" started-at="2023-02-01T22:28:36Z" finished-at="2023-02-01T22:28:41Z">
           <params>
             <param index="0">
               <value>
@@ -1396,11 +970,11 @@ Session ID: cc9e6969a2b8fa2bddf1d33fcb488ed3
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialiseBrowser -->
-        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.obsqura.selenium.FinalProject.LoginPageTest@5a955565]" name="verifyLogin" duration-ms="830" started-at="2023-02-01T03:46:45Z" finished-at="2023-02-01T03:46:46Z">
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.obsqura.selenium.FinalProject.LoginPageTest@5a955565]" name="verifyLogin" duration-ms="2451" started-at="2023-02-01T22:28:41Z" finished-at="2023-02-01T22:28:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.LoginPageTest@5a955565]" name="browserQuit" is-config="true" duration-ms="762" started-at="2023-02-01T03:46:46Z" finished-at="2023-02-01T03:46:47Z">
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.LoginPageTest@5a955565]" name="browserQuit" is-config="true" duration-ms="864" started-at="2023-02-01T22:28:44Z" finished-at="2023-02-01T22:28:45Z">
           <params>
             <param index="0">
               <value>

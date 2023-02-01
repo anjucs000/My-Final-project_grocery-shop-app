@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="classes" thread-count="4">
 <listeners>
-<listener class-name="com.obsqura.selenium.FinalProject.Listeners"/>
+<listener class-name="com.obsqura.selenium.FinalProjectBase.Listeners"/>
 </listeners>
  <test name="Parallel Test">
  <parameter name="browser" value="chrome" />
     <classes>
       <class name="com.obsqura.selenium.FinalProject.PushNotificationsTest"/>
-       <class name="com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest"/>
+       <class name="com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

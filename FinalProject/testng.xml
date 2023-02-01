@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 <listeners>
-<listener class-name="com.obsqura.selenium.FinalProject.Listeners"/>
+<listener class-name="com.obsqura.selenium.FinalProjectBase.Listeners"/>
 </listeners>
   <test name="Test">
  <parameter name="countryValue" value="United Kingdom"></parameter>

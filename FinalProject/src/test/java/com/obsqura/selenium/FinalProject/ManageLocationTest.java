@@ -4,6 +4,9 @@ import java.io.IOException;
 
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import com.obsqura.selenium.FinalProjectBase.Base;
+
 import pages.LoginPage;
 import pages.ManageLocationPage;
 

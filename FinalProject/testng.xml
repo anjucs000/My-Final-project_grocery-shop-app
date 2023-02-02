@@ -19,8 +19,8 @@
          <class name="com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest"/>
           <class name="com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest"/>
            <class name="com.obsqura.selenium.FinalProject.ManageNewsTest"/>
-           <class name="com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest"/>
            <class name="com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest"/>
+            <class name="com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest"/>
         <class name="com.obsqura.selenium.FinalProject.ManageSliderTest"/>
           <class name="com.obsqura.selenium.FinalProject.MobileSliderTest"/>
           <class name="com.obsqura.selenium.FinalProject.PushNotificationsTest"/>

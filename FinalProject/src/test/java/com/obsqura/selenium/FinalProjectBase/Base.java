@@ -63,15 +63,15 @@ public class Base {
 		} catch (Exception e) {
 		}
 		if(browser.equalsIgnoreCase("firefox")){
-			//System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+constants.Constants.FIREFOXDRIVER);
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+constants.Constants.FIREFOXDRIVER);
 			driver = new FirefoxDriver();
 		}
 		else if(browser.equalsIgnoreCase("chrome")){
-			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+constants.Constants.CHROMEDRIVER);
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+constants.Constants.CHROMEDRIVER);
 			driver = new ChromeDriver();
 		}
 		else if(browser.equalsIgnoreCase("edge")){
-			//System.setProperty("webdriver.edge.driver",System.getProperty("user.dir")+constants.Constants.EDGEDRIVER);
+			System.setProperty("webdriver.edge.driver",System.getProperty("user.dir")+constants.Constants.EDGEDRIVER);
 			driver = new EdgeDriver();
 		}
 		else{

@@ -10,13 +10,29 @@
     <parameter name="location" value="Kerala"/>
     <parameter name="countryValue" value="United Kingdom"/>
     <classes>
+      <class name="com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="browserQuit"/>
+          <include name="VerifyCreateNewDeliveryBoy" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest -->
       <class name="com.obsqura.selenium.FinalProject.MobileSliderTest">
         <methods>
           <include name="initialiseBrowser"/>
+          <include name="verifyCheckButtonColors"/>
           <include name="verifyCheckColumnHeaders"/>
           <include name="browserQuit"/>
+          <include name="VerifyAddNewSlider"/>
         </methods>
       </class> <!-- com.obsqura.selenium.FinalProject.MobileSliderTest -->
+      <class name="com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest">
+        <methods>
+          <include name="initialiseBrowser"/>
+          <include name="browserQuit"/>
+          <include name="verifyCreateNewExpenseRecord"/>
+        </methods>
+      </class> <!-- com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

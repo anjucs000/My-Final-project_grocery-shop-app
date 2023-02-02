@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>31/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>27/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Feb 01 22:27:49 IST 2023</td>
+<td>Started on:</td><td>Thu Feb 02 20:06:34 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>248 seconds (248723 ms)</td>
+<tr><td>Total time:</td><td>250 seconds (250869 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,268 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.obsqura.selenium.FinalProject.MobileSliderTest.VerifyAddNewSlider()'><b>VerifyAddNewSlider</b><br>Test class: com.obsqura.selenium.FinalProject.MobileSliderTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 731)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ffedc8818cd31f606ca1234bb7d2184, clickElement {id=c1bf932c-439b-494a-af32-deab9134508c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57871/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9ffedc8818cd31f606ca1234bb7d2184)] -&gt; xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/list-mobileslider&apos; and @class=&apos;small-box-footer&apos;]]
+Session ID: 9ffedc8818cd31f606ca1234bb7d2184
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
+	at pages.MobileSliderPage.addNewSlider(MobileSliderPage.java:88)
+	at com.obsqura.selenium.FinalProject.MobileSliderTest.VerifyAddNewSlider(MobileSliderTest.java:35)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1949954366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1949954366'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 731)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ffedc8818cd31f606ca1234bb7d2184, clickElement {id=c1bf932c-439b-494a-af32-deab9134508c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57871}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57871/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9ffedc8818cd31f606ca1234bb7d2184)] -&gt; xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/list-mobileslider&apos; and @class=&apos;small-box-footer&apos;]]
+Session ID: 9ffedc8818cd31f606ca1234bb7d2184
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
+	at pages.MobileSliderPage.addNewSlider(MobileSliderPage.java:88)
+	at com.obsqura.selenium.FinalProject.MobileSliderTest.VerifyAddNewSlider(MobileSliderTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>2</td>
+<td>com.obsqura.selenium.FinalProject.MobileSliderTest@7d3a22a9</td></tr>
+<tr>
+<td title='com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest.VerifyCreateNewDeliveryBoy()'><b>VerifyCreateNewDeliveryBoy</b><br>Test class: com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest<br>Parameters: John Samuel, john123@gmail.com, 556485226, Sam villa,North carolina,Zip-45236</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (334, 748)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f0b38dec74e120d5dad46fa37127e76, clickElement {id=daba6fa1-2bf4-4bfb-a92e-b295625e4128}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57383}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57383/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3f0b38dec74e120d5dad46fa37127e76)] -&gt; xpath: //button[@type=&apos;submit&apos;]]
+Session ID: 3f0b38dec74e120d5dad46fa37127e76
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
+	at pages.ManageDeliveryBoyPage.createNewDeliveryBoy(ManageDeliveryBoyPage.java:68)
+	at com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest.VerifyCreateNewDeliveryBoy(ManageDeliveryBoyTest.java:21)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1056628013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1056628013'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (334, 748)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f0b38dec74e120d5dad46fa37127e76, clickElement {id=daba6fa1-2bf4-4bfb-a92e-b295625e4128}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57383}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57383/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3f0b38dec74e120d5dad46fa37127e76)] -&gt; xpath: //button[@type=&apos;submit&apos;]]
+Session ID: 3f0b38dec74e120d5dad46fa37127e76
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
+	at pages.ManageDeliveryBoyPage.createNewDeliveryBoy(ManageDeliveryBoyPage.java:68)
+	at com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest.VerifyCreateNewDeliveryBoy(ManageDeliveryBoyTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>3</td>
+<td>com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@7fc2413d</td></tr>
+<tr>
+<td title='com.obsqura.selenium.FinalProject.MobileSliderTest.verifyCheckButtonColors()'><b>verifyCheckButtonColors</b><br>Test class: com.obsqura.selenium.FinalProject.MobileSliderTest</td>
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 723)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af55a0b61396d03ea0be9562d4b90122, clickElement {id=20cb22a5-3ffa-4af9-9ac7-516a2e444279}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57894/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (af55a0b61396d03ea0be9562d4b90122)] -&gt; xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/list-mobileslider&apos; and @class=&apos;small-box-footer&apos;]]
+Session ID: af55a0b61396d03ea0be9562d4b90122
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
+	at pages.MobileSliderPage.checkButtonColors(MobileSliderPage.java:74)
+	at com.obsqura.selenium.FinalProject.MobileSliderTest.verifyCheckButtonColors(MobileSliderTest.java:28)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1225444842", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1225444842'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 723)
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af55a0b61396d03ea0be9562d4b90122, clickElement {id=20cb22a5-3ffa-4af9-9ac7-516a2e444279}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57894}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57894/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (af55a0b61396d03ea0be9562d4b90122)] -&gt; xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/list-mobileslider&apos; and @class=&apos;small-box-footer&apos;]]
+Session ID: af55a0b61396d03ea0be9562d4b90122
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy16.click(Unknown Source)
+	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
+	at pages.MobileSliderPage.checkButtonColors(MobileSliderPage.java:74)
+	at com.obsqura.selenium.FinalProject.MobileSliderTest.verifyCheckButtonColors(MobileSliderTest.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>2</td>
+<td>com.obsqura.selenium.FinalProject.MobileSliderTest@7d3a22a9</td></tr>
+<tr>
 <td title='com.obsqura.selenium.FinalProject.MobileSliderTest.verifyCheckColumnHeaders()'><b>verifyCheckColumnHeaders</b><br>Test class: com.obsqura.selenium.FinalProject.MobileSliderTest</td>
 <td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 723)
   (Session info: chrome=109.0.5414.120)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dda7d42527e89af3e939ff58c1146b0f, clickElement {id=c60a45df-f795-4b69-8189-c469b01274a5}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55032/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (dda7d42527e89af3e939ff58c1146b0f)] -&gt; xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/list-mobileslider&apos; and @class=&apos;small-box-footer&apos;]]
-Session ID: dda7d42527e89af3e939ff58c1146b0f
+Command: [9a49c0c0e9ea3373552a7e8123598365, clickElement {id=707a7cb7-5a52-4e02-a621-60129e7573f4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57922/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9a49c0c0e9ea3373552a7e8123598365)] -&gt; xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/list-mobileslider&apos; and @class=&apos;small-box-footer&apos;]]
+Session ID: 9a49c0c0e9ea3373552a7e8123598365
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -99,16 +351,16 @@ Session ID: dda7d42527e89af3e939ff58c1146b0f
 	at utilities.PageUtility.clickOnElement(PageUtility.java:11)
 	at pages.MobileSliderPage.checkColumnHeaders(MobileSliderPage.java:54)
 	at com.obsqura.selenium.FinalProject.MobileSliderTest.verifyCheckColumnHeaders(MobileSliderTest.java:21)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1374964658", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1374964658'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 723)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1305982149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1305982149'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (727, 723)
   (Session info: chrome=109.0.5414.120)
 Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [dda7d42527e89af3e939ff58c1146b0f, clickElement {id=c60a45df-f795-4b69-8189-c469b01274a5}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55032/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (dda7d42527e89af3e939ff58c1146b0f)] -&gt; xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/list-mobileslider&apos; and @class=&apos;small-box-footer&apos;]]
-Session ID: dda7d42527e89af3e939ff58c1146b0f
+Command: [9a49c0c0e9ea3373552a7e8123598365, clickElement {id=707a7cb7-5a52-4e02-a621-60129e7573f4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57922}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57922/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9a49c0c0e9ea3373552a7e8123598365)] -&gt; xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/list-mobileslider&apos; and @class=&apos;small-box-footer&apos;]]
+Session ID: 9a49c0c0e9ea3373552a7e8123598365
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -157,7 +409,111 @@ Session ID: dda7d42527e89af3e939ff58c1146b0f
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>2</td>
-<td>com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d</td></tr>
+<td>com.obsqura.selenium.FinalProject.MobileSliderTest@7d3a22a9</td></tr>
+<tr>
+<td title='com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest.verifyCreateNewExpenseRecord()'><b>verifyCreateNewExpenseRecord</b><br>Test class: com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/Expense/add&apos;]&apos; (tried for 50 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utilities.WaitUtility.waitForVisibilityOfWebelement(WaitUtility.java:131)
+	at pages.ManageExpenseFromDashboard.createNewExpenseRecord(ManageExpenseFromDashboard.java:90)
+	at com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest.verifyCreateNewExpenseRecord(ManageExpenseFromDashboardTest.java:27)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/Expense/add&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f521461e732d19d733753495c237890, findElement {using=xpath, value=//a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/Expense/add&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57482/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f521461e732d19d733753495c237890
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 28 more
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1265469773", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1265469773'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/Expense/add&apos;]&apos; (tried for 50 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utilities.WaitUtility.waitForVisibilityOfWebelement(WaitUtility.java:131)
+	at pages.ManageExpenseFromDashboard.createNewExpenseRecord(ManageExpenseFromDashboard.java:90)
+	at com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest.verifyCreateNewExpenseRecord(ManageExpenseFromDashboardTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/Expense/add&apos;]&quot;}
+  (Session info: chrome=109.0.5414.120)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_361&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3f521461e732d19d733753495c237890, findElement {using=xpath, value=//a[@href=&apos;https://groceryapp.uniqassosiates.com/admin/Expense/add&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\anjuc\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57482/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3f521461e732d19d733753495c237890
+	at sun.reflect.GeneratedConstructorAccessor55.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy16.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 28 more
+</pre></div></td>
+<td>51</td>
+<td>com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@70be0a2b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -167,160 +523,140 @@ Session ID: dda7d42527e89af3e939ff58c1146b0f
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.obsqura.selenium.FinalProject.MobileSliderTest.VerifyAddNewSlider()'><b>VerifyAddNewSlider</b><br>Test class: com.obsqura.selenium.FinalProject.MobileSliderTest</td>
-<td></td>
-<td>5</td>
-<td>com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d</td></tr>
-<tr>
-<td title='com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest.VerifyCreateNewDeliveryBoy()'><b>VerifyCreateNewDeliveryBoy</b><br>Test class: com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest<br>Parameters: John Samuel, john123@gmail.com, 556485226, Sam villa,North carolina,Zip-45236</td>
-<td></td>
-<td>4</td>
-<td>com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest@6293abcc</td></tr>
-<tr>
 <td title='com.obsqura.selenium.FinalProject.ManageNewsTest.VerifyEnterAndSaveNews()'><b>VerifyEnterAndSaveNews</b><br>Test class: com.obsqura.selenium.FinalProject.ManageNewsTest</td>
 <td></td>
-<td>3</td>
-<td>com.obsqura.selenium.FinalProject.ManageNewsTest@70be0a2b</td></tr>
+<td>2</td>
+<td>com.obsqura.selenium.FinalProject.ManageNewsTest@4c15e7fd</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ManageSliderTest.verifyAddSlider()'><b>verifyAddSlider</b><br>Test class: com.obsqura.selenium.FinalProject.ManageSliderTest</td>
 <td></td>
-<td>3</td>
-<td>com.obsqura.selenium.FinalProject.ManageSliderTest@23986957</td></tr>
-<tr>
-<td title='com.obsqura.selenium.FinalProject.MobileSliderTest.verifyCheckButtonColors()'><b>verifyCheckButtonColors</b><br>Test class: com.obsqura.selenium.FinalProject.MobileSliderTest</td>
-<td></td>
-<td>3</td>
-<td>com.obsqura.selenium.FinalProject.MobileSliderTest@23f7d05d</td></tr>
+<td>2</td>
+<td>com.obsqura.selenium.FinalProject.ManageSliderTest@1e730495</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.AdminUsersTest.verifyCheckColumnHeaders()'><b>verifyCheckColumnHeaders</b><br>Test class: com.obsqura.selenium.FinalProject.AdminUsersTest</td>
 <td></td>
-<td>4</td>
-<td>com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0</td></tr>
+<td>5</td>
+<td>com.obsqura.selenium.FinalProject.AdminUsersTest@6a01e23</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.PushNotificationsTest.verifyCheckTitleOfPage()'><b>verifyCheckTitleOfPage</b><br>Test class: com.obsqura.selenium.FinalProject.PushNotificationsTest</td>
 <td></td>
 <td>1</td>
-<td>com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495</td></tr>
+<td>com.obsqura.selenium.FinalProject.PushNotificationsTest@1d082e88</td></tr>
 <tr>
-<td title='com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest.verifyClickBackButtonFromViewScreen()'><b>verifyClickBackButtonFromViewScreen</b><br>Test class: com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest</td>
+<td title='com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest.verifyClickBackButtonFromViewScreen()'><b>verifyClickBackButtonFromViewScreen</b><br>Test class: com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest</td>
 <td></td>
-<td>3</td>
-<td>com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f</td></tr>
+<td>2</td>
+<td>com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest@23f7d05d</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest.verifyClickExpenseCategory()'><b>verifyClickExpenseCategory</b><br>Test class: com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest</td>
 <td></td>
-<td>2</td>
-<td>com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest@6a01e23</td></tr>
+<td>1</td>
+<td>com.obsqura.selenium.FinalProject.ExpenseCategoryPageTest@6293abcc</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest.verifyClickNewButton()'><b>verifyClickNewButton</b><br>Test class: com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest</td>
 <td></td>
-<td>2</td>
-<td>com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87</td></tr>
+<td>1</td>
+<td>com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@5a955565</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest.verifyClickSaveWithTitle()'><b>verifyClickSaveWithTitle</b><br>Test class: com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest</td>
 <td></td>
 <td>2</td>
-<td>com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87</td></tr>
+<td>com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@5a955565</td></tr>
 <tr>
-<td title='com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest.verifyClickViewButton()'><b>verifyClickViewButton</b><br>Test class: com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest</td>
+<td title='com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest.verifyClickViewButton()'><b>verifyClickViewButton</b><br>Test class: com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest</td>
 <td></td>
-<td>3</td>
-<td>com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f</td></tr>
-<tr>
-<td title='com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest.verifyCreateNewExpenseRecord()'><b>verifyCreateNewExpenseRecord</b><br>Test class: com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest</td>
-<td></td>
-<td>7</td>
-<td>com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d</td></tr>
+<td>2</td>
+<td>com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest@23f7d05d</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.AdminUsersTest.verifyCreateNewUser()'><b>verifyCreateNewUser</b><br>Test class: com.obsqura.selenium.FinalProject.AdminUsersTest</td>
 <td></td>
-<td>4</td>
-<td>com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0</td></tr>
+<td>3</td>
+<td>com.obsqura.selenium.FinalProject.AdminUsersTest@6a01e23</td></tr>
 <tr>
-<td title='com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest.verifyDeleteOrder()'><b>verifyDeleteOrder</b><br>Test class: com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest</td>
+<td title='com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest.verifyDeleteOrder()'><b>verifyDeleteOrder</b><br>Test class: com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest</td>
 <td></td>
 <td>2</td>
-<td>com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f</td></tr>
+<td>com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest@23f7d05d</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest.verifyDuplicateTitleValidation()'><b>verifyDuplicateTitleValidation</b><br>Test class: com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest</td>
 <td></td>
-<td>2</td>
-<td>com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87</td></tr>
+<td>1</td>
+<td>com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@5a955565</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest.verifyExpenseManageOptions()'><b>verifyExpenseManageOptions</b><br>Test class: com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest</td>
 <td></td>
 <td>1</td>
-<td>com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest@f8c1ddd</td></tr>
+<td>com.obsqura.selenium.FinalProject.ManageExpenseOptionsTest@2133814f</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest.verifyFindBackgroundColor()'><b>verifyFindBackgroundColor</b><br>Test class: com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest</td>
 <td></td>
 <td>1</td>
-<td>com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest@7d3a22a9</td></tr>
+<td>com.obsqura.selenium.FinalProject.VerifyButtonsAndColorsInExpenseCategoryTest@60704c</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ManageLocationTest.verifyLocationAndDeliveryChargeFieldsDisplayedOrNot()'><b>verifyLocationAndDeliveryChargeFieldsDisplayedOrNot</b><br>Test class: com.obsqura.selenium.FinalProject.ManageLocationTest</td>
 <td></td>
-<td>1</td>
-<td>com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a</td></tr>
+<td>2</td>
+<td>com.obsqura.selenium.FinalProject.ManageLocationTest@f8c1ddd</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.LoginPageTest.verifyLogin()'><b>verifyLogin</b><br>Test class: com.obsqura.selenium.FinalProject.LoginPageTest</td>
 <td></td>
-<td>2</td>
-<td>com.obsqura.selenium.FinalProject.LoginPageTest@5a955565</td></tr>
+<td>0</td>
+<td>com.obsqura.selenium.FinalProject.LoginPageTest@7995092a</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ManageSliderTest.verifyNavigateBackToHome()'><b>verifyNavigateBackToHome</b><br>Test class: com.obsqura.selenium.FinalProject.ManageSliderTest</td>
 <td></td>
-<td>3</td>
-<td>com.obsqura.selenium.FinalProject.ManageSliderTest@23986957</td></tr>
+<td>2</td>
+<td>com.obsqura.selenium.FinalProject.ManageSliderTest@1e730495</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.AdminUsersTest.verifyResetData()'><b>verifyResetData</b><br>Test class: com.obsqura.selenium.FinalProject.AdminUsersTest</td>
 <td></td>
 <td>2</td>
-<td>com.obsqura.selenium.FinalProject.AdminUsersTest@22635ba0</td></tr>
+<td>com.obsqura.selenium.FinalProject.AdminUsersTest@6a01e23</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.PushNotificationsTest.verifyResetNotification()'><b>verifyResetNotification</b><br>Test class: com.obsqura.selenium.FinalProject.PushNotificationsTest</td>
 <td></td>
-<td>2</td>
-<td>com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495</td></tr>
+<td>1</td>
+<td>com.obsqura.selenium.FinalProject.PushNotificationsTest@1d082e88</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest.verifySaveButtonColor()'><b>verifySaveButtonColor</b><br>Test class: com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest</td>
 <td></td>
-<td>2</td>
-<td>com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@13c10b87</td></tr>
+<td>1</td>
+<td>com.obsqura.selenium.FinalProject.ExpenseCategoryNewButtonTest@5a955565</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest.verifySearchInvalidData()'><b>verifySearchInvalidData</b><br>Test class: com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest</td>
 <td></td>
 <td>2</td>
-<td>com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd</td></tr>
+<td>com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@23986957</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest.verifySearchValidData()'><b>verifySearchValidData</b><br>Test class: com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest</td>
 <td></td>
-<td>2</td>
-<td>com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@4c15e7fd</td></tr>
+<td>1</td>
+<td>com.obsqura.selenium.FinalProject.ManagePagesFromDashboardTest@23986957</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest.verifySelectDateFromCalendar()'><b>verifySelectDateFromCalendar</b><br>Test class: com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest</td>
 <td></td>
 <td>7</td>
-<td>com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d</td></tr>
+<td>com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@70be0a2b</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.PushNotificationsTest.verifySendNotification()'><b>verifySendNotification</b><br>Test class: com.obsqura.selenium.FinalProject.PushNotificationsTest</td>
 <td></td>
 <td>2</td>
-<td>com.obsqura.selenium.FinalProject.PushNotificationsTest@1e730495</td></tr>
+<td>com.obsqura.selenium.FinalProject.PushNotificationsTest@1d082e88</td></tr>
 <tr>
-<td title='com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest.verifyStatusColumnOptionColors()'><b>verifyStatusColumnOptionColors</b><br>Test class: com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest</td>
+<td title='com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest.verifyStatusColumnOptionColors()'><b>verifyStatusColumnOptionColors</b><br>Test class: com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest</td>
 <td></td>
-<td>2</td>
-<td>com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTest@2133814f</td></tr>
+<td>1</td>
+<td>com.obsqura.selenium.FinalProject.ManageOrdersFromDashboardTTest@23f7d05d</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest.verifyTodaysDateInDateField()'><b>verifyTodaysDateInDateField</b><br>Test class: com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest</td>
 <td></td>
-<td>3</td>
-<td>com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@7fc2413d</td></tr>
+<td>2</td>
+<td>com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest@70be0a2b</td></tr>
 <tr>
 <td title='com.obsqura.selenium.FinalProject.ManageLocationTest.verifycreateNewLocation()'><b>verifycreateNewLocation</b><br>Test class: com.obsqura.selenium.FinalProject.ManageLocationTest<br>Parameters: United Kingdom, Kerala, 250</td>
 <td></td>
 <td>3</td>
-<td>com.obsqura.selenium.FinalProject.ManageLocationTest@7995092a</td></tr>
+<td>com.obsqura.selenium.FinalProject.ManageLocationTest@f8c1ddd</td></tr>
 </table><p>
 </body>
 </html>

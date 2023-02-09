@@ -10,23 +10,23 @@ import pages.LoginPage;
 import pages.ManageSliderPage;
 
 public class ManageSliderTest extends Base {
-	LoginPage object1;
-	ManageSliderPage object2;
+	LoginPage LoginPageObj;
+	ManageSliderPage ManageSliderPageObj;
 	
-	@Test
+	@Test(description="Add a new slider and save",groups= {"SmokeTest","RegressionTest"},priority=0)
 	public void verifyAddSlider() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageSliderPage(driver);
-		object1.loginToApp();
-		object2.addSlider();
+		LoginPageObj=new LoginPage(driver);
+		ManageSliderPageObj=new ManageSliderPage(driver);
+		LoginPageObj.loginToApp();
+		ManageSliderPageObj.addSlider();
 	}
-	@Test
+	@Test(description="Navigate back to home page",groups= {"SmokeTest"},priority=1)
 	public void verifyNavigateBackToHome() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageSliderPage(driver);
-		object1.loginToApp();
-		object2.addSlider();
-		object2.navigateBackToHome();
+		LoginPageObj=new LoginPage(driver);
+		ManageSliderPageObj=new ManageSliderPage(driver);
+		LoginPageObj.loginToApp();
+		ManageSliderPageObj.addSlider();
+		ManageSliderPageObj.navigateBackToHome();
 	}
 	
 

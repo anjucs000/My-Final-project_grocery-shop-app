@@ -10,14 +10,14 @@ import pages.ExpenseCategoryPage;
 import pages.LoginPage;
 
 public class ExpenseCategoryPageTest extends Base{
-	LoginPage object1;
-	ExpenseCategoryPage object2;
-	@Test
+	LoginPage LoginPageObj;
+	ExpenseCategoryPage ExpenseCategoryPageObj;
+	@Test(description="Click expense category and verify",groups= {"RegressionTest"},priority=0)
 	public void verifyClickExpenseCategory() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ExpenseCategoryPage(driver);
-		object1.loginToApp();
-		object2.clickExpenseCategory();
+		LoginPageObj=new LoginPage(driver);
+		ExpenseCategoryPageObj=new ExpenseCategoryPage(driver);
+		LoginPageObj.loginToApp();
+		ExpenseCategoryPageObj.clickExpenseCategory();
 		
 	}
 }

@@ -9,10 +9,10 @@ import com.obsqura.selenium.FinalProjectBase.Base;
 import pages.LoginPage;
 
 public class LoginPageTest extends Base{
-	LoginPage obj;
-	@Test
+	LoginPage LoginPageObj;
+	@Test(description="Login to app and verify title",groups= {"SmokeTest"},priority=0)
 	public void verifyLogin() throws IOException {
-		obj=new LoginPage(driver);
-		obj.loginToApp();
+		LoginPageObj=new LoginPage(driver);
+		LoginPageObj.loginToApp();
 	}
 }

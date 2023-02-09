@@ -12,25 +12,24 @@ import pages.ManageLocationPage;
 
 public class ManageLocationTest extends Base{
 	
-	LoginPage object1;
-	ManageLocationPage object2;
+	LoginPage LoginPageObj;
+	ManageLocationPage ManageLocationPageObj;
 	
-	@Test
+	@Test(description="Check if location and elivery charge fields displayed",groups= {"RegressionTest"},priority=0)
 	public void verifyLocationAndDeliveryChargeFieldsDisplayedOrNot() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageLocationPage(driver);
-		object1.loginToApp();
-		object2.locationAndDeliveryChargeFieldsDisplayedOrNot();;
+		LoginPageObj=new LoginPage(driver);
+		ManageLocationPageObj=new ManageLocationPage(driver);
+		LoginPageObj.loginToApp();
+		ManageLocationPageObj.locationAndDeliveryChargeFieldsDisplayedOrNot();;
 	}
-	
-	@Test
+	@Test(description="Create new location and save",groups= {"SmokeTest"},priority=1)
 	@Parameters({"countryValue","location","deliveryCharge"})
 	public void verifycreateNewLocation(String countryValue,String location,String deliveryCharge) throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageLocationPage(driver);
-		object1.loginToApp();
-		object2.locationAndDeliveryChargeFieldsDisplayedOrNot();
-		object2.createNewLocation(countryValue, location, deliveryCharge);
+		LoginPageObj=new LoginPage(driver);
+		ManageLocationPageObj=new ManageLocationPage(driver);
+		LoginPageObj.loginToApp();
+		ManageLocationPageObj.locationAndDeliveryChargeFieldsDisplayedOrNot();
+		ManageLocationPageObj.createNewLocation(countryValue, location, deliveryCharge);
 	}
 
 }

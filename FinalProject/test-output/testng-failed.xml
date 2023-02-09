@@ -14,13 +14,12 @@
         <methods>
           <include name="initialiseBrowser"/>
           <include name="browserQuit"/>
-          <include name="VerifyCreateNewDeliveryBoy" invocation-numbers="0"/>
+          <include name="VerifyCreateNewDeliveryBoy" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.obsqura.selenium.FinalProject.ManageDeliveryBoyTest -->
       <class name="com.obsqura.selenium.FinalProject.MobileSliderTest">
         <methods>
           <include name="initialiseBrowser"/>
-          <include name="verifyCheckButtonColors"/>
           <include name="verifyCheckColumnHeaders"/>
           <include name="browserQuit"/>
           <include name="VerifyAddNewSlider"/>
@@ -30,6 +29,8 @@
         <methods>
           <include name="initialiseBrowser"/>
           <include name="browserQuit"/>
+          <include name="verifySelectDateFromCalendar"/>
+          <include name="verifyTodaysDateInDateField"/>
           <include name="verifyCreateNewExpenseRecord"/>
         </methods>
       </class> <!-- com.obsqura.selenium.FinalProject.ManageExpenseFromDashboardTest -->

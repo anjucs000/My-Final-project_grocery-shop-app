@@ -10,28 +10,28 @@ import pages.LoginPage;
 import pages.ManageExpenseFromDashboard;
 
 public class ManageExpenseFromDashboardTest extends Base {
-	LoginPage object1;
-	ManageExpenseFromDashboard object2;
-	@Test
+	LoginPage LoginPageObj;
+	ManageExpenseFromDashboard ManageExpenseFromDashboardObj;
+	@Test(description="Check if the date field have today's date by default",groups= {"SmokeTest"},priority=1)
 	public void verifyTodaysDateInDateField() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageExpenseFromDashboard(driver);
-		object1.loginToApp();
-		object2.checkTodaysDateInDateField();
+		LoginPageObj=new LoginPage(driver);
+		ManageExpenseFromDashboardObj=new ManageExpenseFromDashboard(driver);
+		LoginPageObj.loginToApp();
+		ManageExpenseFromDashboardObj.checkTodaysDateInDateField();
 	}
-	@Test
+	@Test(description="Create a new expense record and save",groups= {"RegressionTest"},priority=0)
 	public void verifyCreateNewExpenseRecord() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageExpenseFromDashboard(driver);
-		object1.loginToApp();
-		object2.createNewExpenseRecord();
+		LoginPageObj=new LoginPage(driver);
+		ManageExpenseFromDashboardObj=new ManageExpenseFromDashboard(driver);
+		LoginPageObj.loginToApp();
+		ManageExpenseFromDashboardObj.createNewExpenseRecord();
 	}
-	@Test
+	@Test(description="Select another date from calendar and save",groups= {"RegressionTest"},priority=2)
 	public void verifySelectDateFromCalendar() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageExpenseFromDashboard(driver);
-		object1.loginToApp();
-		object2.createExpenseRecordByselectDateFromCalendar();
+		LoginPageObj=new LoginPage(driver);
+		ManageExpenseFromDashboardObj=new ManageExpenseFromDashboard(driver);
+		LoginPageObj.loginToApp();
+		ManageExpenseFromDashboardObj.createExpenseRecordByselectDateFromCalendar();
 	}
 
 }

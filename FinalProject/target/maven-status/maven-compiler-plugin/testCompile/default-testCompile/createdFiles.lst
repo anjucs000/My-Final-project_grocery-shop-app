@@ -14,6 +14,7 @@ com\obsqura\selenium\FinalProject\ExpenseCategoryPageTest.class
 com\obsqura\selenium\FinalProject\MobileSliderTest.class
 pages\MobileSliderPage.class
 com\obsqura\selenium\FinalProject\ManagePagesFromDashboardTest.class
+com\obsqura\selenium\FinalProject\LoginPageWithDataproviderTest.class
 com\obsqura\selenium\FinalProject\ManageNewsTest.class
 pages\AdminUsersPage.class
 pages\ExpenseCategoryPage.class
@@ -23,6 +24,7 @@ com\obsqura\selenium\FinalProject\AdminUsersTest.class
 com\obsqura\selenium\FinalProject\ManageExpenseOptionsTest.class
 com\obsqura\dataproviderUtility\DataProviderUtility.class
 com\obsqura\selenium\FinalProject\VerifyButtonsAndColorsInExpenseCategoryTest.class
+pages\LoginPageWithDataprovider.class
 com\obsqura\selenium\FinalProject\ManageExpenseFromDashboardTest.class
 pages\ManageExpenseOptions.class
 pages\ExpenseCategoryNewButton.class

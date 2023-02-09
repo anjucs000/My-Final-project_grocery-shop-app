@@ -10,31 +10,31 @@ import pages.LoginPage;
 import pages.PushNotificationsPage;
 
 public class PushNotificationsTest extends Base{
-	LoginPage object1;
-	PushNotificationsPage object2;
+	LoginPage LoginPageObj;
+	PushNotificationsPage PushNotificationsPageObj;
 	
-	@Test(groups= {"group1","group2"})
+	@Test(description="Verify page title",groups= {"RegressionTest","SmokeTest"},priority=0)
 	public void verifyCheckTitleOfPage() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new PushNotificationsPage(driver);
-		object1.loginToApp();
-		object2.checkTitleOfPage();
+		LoginPageObj=new LoginPage(driver);
+		PushNotificationsPageObj=new PushNotificationsPage(driver);
+		LoginPageObj.loginToApp();
+		PushNotificationsPageObj.checkTitleOfPage();
 	}
-	@Test(groups= {"group1"})
+	@Test(description="Send notification and verify",groups= {"SmokeTest"},priority=1)
 	public void verifySendNotification() throws IOException, InterruptedException {
-		object1=new LoginPage(driver);
-		object2=new PushNotificationsPage(driver);
-		object1.loginToApp();
-		object2.checkTitleOfPage();
-		object2.sendNotification();
+		LoginPageObj=new LoginPage(driver);
+		PushNotificationsPageObj=new PushNotificationsPage(driver);
+		LoginPageObj.loginToApp();
+		PushNotificationsPageObj.checkTitleOfPage();
+		PushNotificationsPageObj.sendNotification();
 	}
-	@Test(groups= {"group2"})
+	@Test(description="Reset notification and verify",groups= {"RegressionTest"},priority=2)
 	public void verifyResetNotification() throws IOException, InterruptedException {
-		object1=new LoginPage(driver);
-		object2=new PushNotificationsPage(driver);
-		object1.loginToApp();
-		object2.checkTitleOfPage();
-		object2.resetData();
+		LoginPageObj=new LoginPage(driver);
+		PushNotificationsPageObj=new PushNotificationsPage(driver);
+		LoginPageObj.loginToApp();
+		PushNotificationsPageObj.checkTitleOfPage();
+		PushNotificationsPageObj.resetData();
 	}
 	
 

@@ -1,41 +1,36 @@
 package com.obsqura.selenium.FinalProject;
 
 import java.io.IOException;
-
 import org.testng.annotations.Test;
-
 import com.obsqura.selenium.FinalProjectBase.Base;
-
 import pages.AdminUsersPage;
 import pages.LoginPage;
-import pages.MobileSliderPage;
+
 
 public class AdminUsersTest extends Base{
-	LoginPage object1;
-	AdminUsersPage object2;
-	@Test
+	LoginPage LoginPageObj;
+	AdminUsersPage AdminUsersPageObj;
+	@Test(description="Verify column headers",groups= {"SmokeTest"},priority=0)
 	public void verifyCheckColumnHeaders() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new AdminUsersPage(driver);
-		object1.loginToApp();
-		object2.checkUsernameAndPasswordFieldEmpty();
+		LoginPageObj=new LoginPage(driver);
+		AdminUsersPageObj=new AdminUsersPage(driver);
+		LoginPageObj.loginToApp();
+		AdminUsersPageObj.checkUsernameAndPasswordFieldEmpty();
 	}
-	
-	@Test
+	@Test(description="Create a new user",groups= {"RegressionTest"},priority=1)
 	public void verifyCreateNewUser() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new AdminUsersPage(driver);
-		object1.loginToApp();
-		object2.checkUsernameAndPasswordFieldEmpty();
-		object2.createNewUser();
+		LoginPageObj=new LoginPage(driver);
+		AdminUsersPageObj=new AdminUsersPage(driver);
+		LoginPageObj.loginToApp();
+		AdminUsersPageObj.checkUsernameAndPasswordFieldEmpty();
+		AdminUsersPageObj.createNewUser();
 	}
-	@Test
+	@Test(description="Reset the data",groups= {"RegressionTest"},priority=2)
 	public void verifyResetData() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new AdminUsersPage(driver);
-		object1.loginToApp();
-		object2.checkUsernameAndPasswordFieldEmpty();
-		object2.resetData();
+		LoginPageObj=new LoginPage(driver);
+		AdminUsersPageObj=new AdminUsersPage(driver);
+		LoginPageObj.loginToApp();
+		AdminUsersPageObj.checkUsernameAndPasswordFieldEmpty();
+		AdminUsersPageObj.resetData();
 	}
-
 }

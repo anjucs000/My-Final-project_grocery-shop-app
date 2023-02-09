@@ -10,41 +10,41 @@ import pages.LoginPage;
 import pages.ManageOrdersFromDashboard;
 
 public class ManageOrdersFromDashboardTTest extends Base {
-	LoginPage object1;
-	ManageOrdersFromDashboard object2;
+	LoginPage LoginPageObj;
+	ManageOrdersFromDashboard ManageOrdersFromDashboardObj;
 	
-	@Test
+	@Test(description="Verify status column options colors",groups= {"SmokeTest"},priority=0)
 	public void verifyStatusColumnOptionColors() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageOrdersFromDashboard(driver);
-		object1.loginToApp();
-		object2.checkStatusColumnOptionColors();
+		LoginPageObj=new LoginPage(driver);
+		ManageOrdersFromDashboardObj=new ManageOrdersFromDashboard(driver);
+		LoginPageObj.loginToApp();
+		ManageOrdersFromDashboardObj.checkStatusColumnOptionColors();
 	}
 	
-	@Test
+	@Test(description="Click view button and verify",groups= {"RegressionTest"},priority=1)
 	public void verifyClickViewButton() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageOrdersFromDashboard(driver);
-		object1.loginToApp();
-		object2.checkStatusColumnOptionColors();
-		object2.clickViewButton();
+		LoginPageObj=new LoginPage(driver);
+		ManageOrdersFromDashboardObj=new ManageOrdersFromDashboard(driver);
+		LoginPageObj.loginToApp();
+		ManageOrdersFromDashboardObj.checkStatusColumnOptionColors();
+		ManageOrdersFromDashboardObj.clickViewButton();
 	}
-	@Test
+	@Test(description="Click back button from view screen and verify",groups= {"SmokeTest"},priority=2)
 	public void verifyClickBackButtonFromViewScreen() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageOrdersFromDashboard(driver);
-		object1.loginToApp();
-		object2.checkStatusColumnOptionColors();
-		object2.clickViewButton();
-		object2.clickBackButtonFromViewScreen();
+		LoginPageObj=new LoginPage(driver);
+		ManageOrdersFromDashboardObj=new ManageOrdersFromDashboard(driver);
+		LoginPageObj.loginToApp();
+		ManageOrdersFromDashboardObj.checkStatusColumnOptionColors();
+		ManageOrdersFromDashboardObj.clickViewButton();
+		ManageOrdersFromDashboardObj.clickBackButtonFromViewScreen();
 	}
-	@Test
+	@Test(description="Delete order and verify",groups= {"SmokeTest"},priority=3)
 	public void verifyDeleteOrder() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageOrdersFromDashboard(driver);
-		object1.loginToApp();
-		object2.checkStatusColumnOptionColors();
-		object2.deleteOrder();
+		LoginPageObj=new LoginPage(driver);
+		ManageOrdersFromDashboardObj=new ManageOrdersFromDashboard(driver);
+		LoginPageObj.loginToApp();
+		ManageOrdersFromDashboardObj.checkStatusColumnOptionColors();
+		ManageOrdersFromDashboardObj.deleteOrder();
 	}
 }
 

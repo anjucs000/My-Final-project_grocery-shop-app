@@ -10,14 +10,14 @@ import pages.LoginPage;
 import pages.ManageNewspage;
 
 public class ManageNewsTest extends Base{
-	LoginPage object1;
-	ManageNewspage object2;
+	LoginPage LoginPageObj;
+	ManageNewspage ManageNewspageObj;
 	
-	@Test
+	@Test(description="Create new news record and save",groups= {"RegressionTest"},priority=0)
 	public void VerifyEnterAndSaveNews() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageNewspage(driver);
-		object1.loginToApp();
-		object2.enterAndSaveNews();
+		LoginPageObj=new LoginPage(driver);
+		ManageNewspageObj=new ManageNewspage(driver);
+		LoginPageObj.loginToApp();
+		ManageNewspageObj.enterAndSaveNews();
 	}
 }

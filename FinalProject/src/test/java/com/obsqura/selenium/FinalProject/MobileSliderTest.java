@@ -11,28 +11,28 @@ import pages.ManageExpenseFromDashboard;
 import pages.MobileSliderPage;
 
 public class MobileSliderTest extends Base{
-	LoginPage object1;
-	MobileSliderPage object2;
-	@Test
+	LoginPage LoginPageObj;
+	MobileSliderPage MobileSliderPageObj;
+	@Test(description="Verify headers of table",groups= {"RegressionTest"},priority=0)
 	public void verifyCheckColumnHeaders() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new MobileSliderPage(driver);
-		object1.loginToApp();
-		object2.checkColumnHeaders();
+		LoginPageObj=new LoginPage(driver);
+		MobileSliderPageObj=new MobileSliderPage(driver);
+		LoginPageObj.loginToApp();
+		MobileSliderPageObj.checkColumnHeaders();
 	}
-	@Test
+	@Test(description="Verify colors of buttons",groups= {"SmokeTest"},priority=1)
 	public void verifyCheckButtonColors() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new MobileSliderPage(driver);
-		object1.loginToApp();
-		object2.checkButtonColors();
+		LoginPageObj=new LoginPage(driver);
+		MobileSliderPageObj=new MobileSliderPage(driver);
+		LoginPageObj.loginToApp();
+		MobileSliderPageObj.checkButtonColors();
 	}
-	@Test
+	@Test(description="Add a new slider and save",groups= {"SmokeTest"},priority=2)
 	public void VerifyAddNewSlider() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new MobileSliderPage(driver);
-		object1.loginToApp();
-		object2.addNewSlider();
+		LoginPageObj=new LoginPage(driver);
+		MobileSliderPageObj=new MobileSliderPage(driver);
+		LoginPageObj.loginToApp();
+		MobileSliderPageObj.addNewSlider();
 	}
 
 }

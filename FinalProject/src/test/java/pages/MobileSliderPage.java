@@ -91,7 +91,7 @@ public class MobileSliderPage {
 		Select category=new Select(categoryField);
 		category.selectByVisibleText("Grocery & Staples");
 		PageUtility.clickOnElement(saveButton);
-		Assert.assertTrue(closeButtonInAlert.isDisplayed(), "New Slider save failed");
+		Assert.assertTrue(PageUtility.checkFieldDisplayed(closeButtonInAlert), "New Slider save failed");
 	}
 
 }

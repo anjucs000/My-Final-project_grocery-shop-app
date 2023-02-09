@@ -11,22 +11,22 @@ import pages.LoginPage;
 import pages.ManagePagesFromDashBoardPage;
 
 public class ManagePagesFromDashboardTest extends Base{
-	LoginPage object1;
-	ManagePagesFromDashBoardPage object2;
+	LoginPage LoginPageObj;
+	ManagePagesFromDashBoardPage ManagePagesFromDashBoardPageObj;
 	
-	@Test
+	@Test(description="Search a valid data from table",groups= {"RegressionTest"},priority=1)
 	public void verifySearchInvalidData() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManagePagesFromDashBoardPage(driver);
-		object1.loginToApp();
-		object2.searchInvalidData();
+		LoginPageObj=new LoginPage(driver);
+		ManagePagesFromDashBoardPageObj=new ManagePagesFromDashBoardPage(driver);
+		LoginPageObj.loginToApp();
+		ManagePagesFromDashBoardPageObj.searchInvalidData();
 	}
-	@Test
+	@Test(description="Search an invalid data from table",groups= {"SmokeTest"},priority=2)
 	public void verifySearchValidData() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManagePagesFromDashBoardPage(driver);
-		object1.loginToApp();
-		object2.searchValidData();
+		LoginPageObj=new LoginPage(driver);
+		ManagePagesFromDashBoardPageObj=new ManagePagesFromDashBoardPage(driver);
+		LoginPageObj.loginToApp();
+		ManagePagesFromDashBoardPageObj.searchValidData();
 		
 	}
 

@@ -53,14 +53,13 @@ public class AdminUsersPage {
 		}
 		Assert.assertTrue(flag, "Username and Password fields are not empty");
 	}
-	
 	public void createNewUser() {
 		Select userType=new Select(userTypeField);
 		PageUtility.enterText(userNameField, FakerUtility.generateUserName());
 		PageUtility.enterText(passwordField, FakerUtility.generateUserName());
 		userType.selectByIndex(FakerUtility.generateIndexforAdminUser());
 		PageUtility.clickOnElement(saveButton);
-		Assert.assertTrue(closeButtonInAlert.isDisplayed(), "User creation failed");
+		Assert.assertTrue(PageUtility.checkFieldDisplayed(closeButtonInAlert), "User creation failed");
 	}
 	public void resetData() {
 		Select userType=new Select(userTypeField);
@@ -68,6 +67,6 @@ public class AdminUsersPage {
 		PageUtility.enterText(passwordField, FakerUtility.generateUserName());
 		userType.selectByIndex(FakerUtility.generateIndexforAdminUser());
 		PageUtility.clickOnElement(resetButton);
-		Assert.assertFalse(saveButton.isDisplayed(), "Reset data failed");
+		Assert.assertFalse(PageUtility.checkFieldDisplayed(saveButton), "Reset data failed");
 	}
 }

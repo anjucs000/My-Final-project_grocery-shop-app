@@ -11,18 +11,18 @@ import pages.LoginPage;
 import pages.VerifyButtonsAndColorsInExpenseCategory;
 
 public class VerifyButtonsAndColorsInExpenseCategoryTest extends Base{
-	LoginPage object1;
-	ExpenseCategoryPage object2;
-	VerifyButtonsAndColorsInExpenseCategory object3;
+	LoginPage LoginPageObj;
+	ExpenseCategoryPage ExpenseCategoryPageObj;
+	VerifyButtonsAndColorsInExpenseCategory VerifyButtonsAndColorsInExpenseCategoryObj;
 	
-	@Test
+	@Test(description="Check background color",groups= {"RegressionTest"},priority=0)
 	public void verifyFindBackgroundColor() throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ExpenseCategoryPage(driver);
-		object3=new VerifyButtonsAndColorsInExpenseCategory(driver);
-		object1.loginToApp();
-		object2.clickExpenseCategory();
-		object3.findBackgroundColor();
+		LoginPageObj=new LoginPage(driver);
+		ExpenseCategoryPageObj=new ExpenseCategoryPage(driver);
+		VerifyButtonsAndColorsInExpenseCategoryObj=new VerifyButtonsAndColorsInExpenseCategory(driver);
+		LoginPageObj.loginToApp();
+		ExpenseCategoryPageObj.clickExpenseCategory();
+		VerifyButtonsAndColorsInExpenseCategoryObj.findBackgroundColor();
 	}
 	
 

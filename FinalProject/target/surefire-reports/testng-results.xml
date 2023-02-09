@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grouping" duration-ms="12955" started-at="2023-02-07T00:58:58 IST" finished-at="2023-02-07T00:59:11 IST">
+    <groups>
+      <group name="group2">
+        <method signature="PushNotificationsTest.verifyCheckTitleOfPage()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029]" name="verifyCheckTitleOfPage" class="com.obsqura.selenium.FinalProject.PushNotificationsTest"/>
+        <method signature="PushNotificationsTest.verifyResetNotification()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029]" name="verifyResetNotification" class="com.obsqura.selenium.FinalProject.PushNotificationsTest"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="PushNotificationsTest.verifyCheckTitleOfPage()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029]" name="verifyCheckTitleOfPage" class="com.obsqura.selenium.FinalProject.PushNotificationsTest"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Grouping Test" duration-ms="12955" started-at="2023-02-07T00:58:58 IST" finished-at="2023-02-07T00:59:11 IST">
+      <class name="com.obsqura.selenium.FinalProject.PushNotificationsTest">
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029]" name="initialiseBrowser" is-config="true" duration-ms="4245" started-at="2023-02-07T00:58:58 IST" finished-at="2023-02-07T00:59:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="verifyCheckTitleOfPage()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029]" name="verifyCheckTitleOfPage" duration-ms="1992" started-at="2023-02-07T00:59:02 IST" finished-at="2023-02-07T00:59:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckTitleOfPage -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029]" name="browserQuit" is-config="true" duration-ms="732" started-at="2023-02-07T00:59:04 IST" finished-at="2023-02-07T00:59:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCheckTitleOfPage status=SUCCESS method=PushNotificationsTest.verifyCheckTitleOfPage()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+        <test-method status="PASS" signature="initialiseBrowser(java.lang.String)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029]" name="initialiseBrowser" is-config="true" duration-ms="2462" started-at="2023-02-07T00:59:05 IST" finished-at="2023-02-07T00:59:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseBrowser -->
+        <test-method status="PASS" signature="verifyResetNotification()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029]" name="verifyResetNotification" duration-ms="2761" started-at="2023-02-07T00:59:08 IST" finished-at="2023-02-07T00:59:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResetNotification -->
+        <test-method status="PASS" signature="browserQuit(org.testng.ITestResult)[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029]" name="browserQuit" is-config="true" duration-ms="716" started-at="2023-02-07T00:59:10 IST" finished-at="2023-02-07T00:59:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyResetNotification status=SUCCESS method=PushNotificationsTest.verifyResetNotification()[pri:0, instance:com.obsqura.selenium.FinalProject.PushNotificationsTest@2667f029] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserQuit -->
+      </class> <!-- com.obsqura.selenium.FinalProject.PushNotificationsTest -->
+    </test> <!-- Grouping Test -->
+  </suite> <!-- Grouping -->
+</testng-results>

@@ -10,15 +10,15 @@ import pages.LoginPage;
 import pages.ManageDeliveryBoyPage;
 
 public class ManageDeliveryBoyTest extends Base {
-	LoginPage object1;
-	ManageDeliveryBoyPage object2;
+	LoginPage LoginPageObj;
+	ManageDeliveryBoyPage ManageDeliveryBoyPageObj;
 	
-	@Test(dataProvider="NewDeliveryBoyRecord",dataProviderClass=com.obsqura.dataproviderUtility.DataProviderUtility.class)
+	@Test(dataProvider="NewDeliveryBoyRecord",dataProviderClass=com.obsqura.dataproviderUtility.DataProviderUtility.class,description="Click new button and verify",groups= {"RegressionTest"},priority=0)
 	public void VerifyCreateNewDeliveryBoy(String name,String email,String phoneNumber,String address) throws IOException {
-		object1=new LoginPage(driver);
-		object2=new ManageDeliveryBoyPage(driver);
-		object1.loginToApp();
-		object2.createNewDeliveryBoy(name, email, phoneNumber, address);
+		LoginPageObj=new LoginPage(driver);
+		ManageDeliveryBoyPageObj=new ManageDeliveryBoyPage(driver);
+		LoginPageObj.loginToApp();
+		ManageDeliveryBoyPageObj.createNewDeliveryBoy(name, email, phoneNumber, address);
 	}
 
 }
